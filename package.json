@@ -1,0 +1,22 @@
+{
+  "name": "bestof2016-react",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "numeral": "^2.0.4",
+    "randomcolor": "^0.4.4",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-markdown": "^2.4.2",
+    "victory": "^0.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

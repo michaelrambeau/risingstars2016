@@ -1,0 +1,71 @@
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.5);
+  z-index: 50;
+  height: 60px;
+}
+#header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+.intro {
+  font-size: 1.25rem;
+}
+#header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 0;
+	background: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	z-index: 50;
+}
+#logo {
+	font-family: 'Comfortaa', cursive;
+	font-size: 36px;
+	color: #e65100;
+}
+#logo:hover {
+  text-decoration: none;
+}
+.markdown-body :first-child {
+  margin-top: 0
+}
+.markdown-body :last-child {
+  margin-bottom: 0
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16);
+  margin-bottom: 2rem;
+}
+.card-header {
+  padding: 2rem;
+  border-bottom: 1px solid #cbcbcb;
+  background-color: #cc4700;
+  color: rgba(255, 255, 255, .97)
+}
+.card-body, .card-comment {
+  padding: 2rem;
+}
+.card-comment {
+  border-top: 1px solid #cbcbcb;
+}

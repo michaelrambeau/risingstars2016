@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #ececec;
+  background-color: #fbf3ef;
+  color: #555;
+}
+@media (max-width: 799px) {
+  body {
+    font-size: 14px;
+  }
+  #header .container,
+  h1 {
+    padding-left: 2rem;
+  }
+}
+h1, h2, h3 {
+  font-weight: 400;
+}
+h1 {
+  margin-top: 0;
+}
+a {
+  color: #cc4700;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
