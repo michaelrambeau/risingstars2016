@@ -17,7 +17,7 @@ function mapStateToProps (state, props) {
 
   const all = allProjects
     .map(id => projects[id])
-    .slice(0, 10)
+    .slice(0, 50)
 
   const tags = [
     'framework',

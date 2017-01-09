@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-// import './github.css'
-// import './index.css'
 import getInitialState from './getInitialState'
+
+import './github.css'
+import './index.css'
+import './App.css'
+import './ProjectTable.css'
+import './social.css'
 
 function fetchData () {
   const url = 'https://bestofjs-api-dev.firebaseapp.com/projects.json'

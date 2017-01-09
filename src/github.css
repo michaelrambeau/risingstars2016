@@ -2,7 +2,6 @@
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
-  color: #333;
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -22,10 +21,6 @@
   color: #795da3;
 }
 
-.markdown-body .pl-smi,
-.markdown-body .pl-s .pl-s1 {
-  color: #333;
-}
 
 .markdown-body .pl-ent {
   color: #63a35c;
@@ -80,12 +75,10 @@
 
 .markdown-body .pl-mi {
   font-style: italic;
-  color: #333;
 }
 
 .markdown-body .pl-mb {
   font-weight: bold;
-  color: #333;
 }
 
 .markdown-body .pl-md {
@@ -232,32 +225,26 @@
 
 .markdown-body h1 {
   font-size: 32px;
-  font-weight: 600;
 }
 
 .markdown-body h2 {
   font-size: 24px;
-  font-weight: 600;
 }
 
 .markdown-body h3 {
   font-size: 20px;
-  font-weight: 600;
 }
 
 .markdown-body h4 {
   font-size: 16px;
-  font-weight: 600;
 }
 
 .markdown-body h5 {
   font-size: 14px;
-  font-weight: 600;
 }
 
 .markdown-body h6 {
   font-size: 12px;
-  font-weight: 600;
 }
 
 .markdown-body p {
@@ -362,7 +349,8 @@
   height: 0.25em;
   padding: 0;
   margin: 24px 0;
-  background-color: #e7e7e7;
+  background-color: #fbf3ef;
+  background-color: #FFEBA8;
   border: 0;
 }
 
@@ -402,7 +390,6 @@
 .markdown-body h6 {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: 600;
   line-height: 1.25;
 }
 

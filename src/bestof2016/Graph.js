@@ -5,10 +5,10 @@ import numeral from 'numeral'
 const styles = {
   chart: {
     padding: {
-      top: 16,
-      left: 16,
-      bottom: 64,
-      right: 100
+      top: 0,
+      left: 0,
+      bottom: 32,
+      right: 64 // needed because of projects number one with a long title
     }
   },
   axis: {
@@ -31,7 +31,7 @@ function getGraphData (projects, sortOrder) {
     .filter(project => project.stats[sortOrder] > 0)
     .map((project, i) => {
       return {
-        url: project.url,
+        url: project.url || project.repository,
         label: project.name,
         color: project.color,
         x: count - i,
@@ -41,13 +41,17 @@ function getGraphData (projects, sortOrder) {
   return data
 }
 
-function formatDelta (delta) {
-  // return `+${delta}☆`
-  return `${numeral(delta).format('0a')}☆`
+function formatDelta (delta, decimals = 0) {
+  // return `+${delta}☆☆`
+  const numberFormat = decimals === 0 ? '0' : `0.${'0'.repeat(decimals)}`
+  const formattedNumber = numeral(delta).format(`${numberFormat}a`)
+  // const formattedNumber = numeral(delta).format(`0a`)
+  return `+${formattedNumber}☆`
 }
 
 const MyBarLabel = (props) => {
   const url = props.datum.url
+  // const text = `${props.text} (${formatDelta(props.datum.y, 1)})`
   return (
     <a href={url} target="_blank">
       <VictoryLabel {...props} />
@@ -55,29 +59,35 @@ const MyBarLabel = (props) => {
   )
 }
 
-const Graph = ({ projects, sortOrder }) => {
+const Graph = ({ projects, sortOrder, width, height }) => {
   return (
     <div>
       <VictoryChart
         domainPadding={20}
         padding={styles.chart.padding}
         theme={VictoryTheme.material}
+        width={width}
+        height={height}
       >
         <VictoryAxis
           style={styles.axis}
-          label={`by number of Github stars added in 2016`}
+          labelB={`by Github stars added in 2016`}
           axisLabelComponent={<VictoryLabel dy={3} />}
-          tickFormat={formatDelta}
+          tickFormat={x => formatDelta(x, 0)}
         />
         <VictoryAxis
           dependentAxis
-          tickCount={5}
-          tickFormat={x => ''}
+          style={{
+            ticks: { strokeWidth: 0 }
+          }}
+          tickCountC={0}
+          tickValues={[]}
+          tickFormat={datum => ''}
         />
         <VictoryBar
           data={getGraphData(projects, sortOrder)}
           horizontal
-          label={project => project.label}
+          label={project => `${project.label} (${project.x})`}
           labelComponent={<MyBarLabel />}
           style={{
             data: {
