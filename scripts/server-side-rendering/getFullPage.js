@@ -7,8 +7,8 @@ function getFullPage (appHtml) {
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>The JavaScript landscape in 2016</title>
     <meta name="description" content="A complete overview of the JavaScript landscape in 2016: trends about frameworks, tooling, IDE, Static site generators...">
-    <meta content="Best of JavaScript" property="og:title">
-    <meta content="A place to find the best components to build amazing applications: JavaScript client and server side, html, CSS..." property="og:description">
+    <meta content="The JavaScript landscape in 2016" property="og:title">
+    <meta content="A complete overview of the JavaScript landscape in 2016: trends about frameworks, tooling, IDE, Static site generators..." property="og:description">
     <meta content="http://bestof.js.org/images/logo2.png" property="og:image">
 
     <meta name="mobile-web-app-capable" content="yes">
