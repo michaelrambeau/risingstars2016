@@ -5,8 +5,8 @@
 const intro = `
 The JavaScript community is going full speed on innovation, what was once trendy becomes old-fashioned a few months later.
 
-You may think you missed something important ?
-Don't worry, we are going to review what were the main trends in 2016.
+2016 is over and you may think you missed something important ?
+Don't worry, we are going to review what were the main trends.
 
 Let's see **by the numbers** which projects got traction in 2016, by comparing the numbers of stars **added** on Gibhub, over the last 12 months.
 

@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import getInitialState from './getInitialState'
 
-import './github.css'
-import './index.css'
-import './App.css'
-import './ProjectTable.css'
-import './social.css'
+// We import all css files from index.js, avoiding the recommended way to import css from components
+// because of the server-side-rendering script we added to `create-react-app`
+import './css/github.css'
+import './css/index.css'
+import './css/App.css'
+import './css/ProjectTable.css'
+import './css/social.css'
+import './css/Picture.css'
 
 function fetchData () {
   const url = 'https://bestofjs-api-dev.firebaseapp.com/projects.json'

@@ -1,0 +1,29 @@
+#picture-block {
+  width: 100%;
+  height: 12rem;
+  background-color: #FFAC2C;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #FFAC2C url('/project-logos-5x5.png')
+}
+@media (min-width: 800px) {
+  #picture-block {
+    height: 20rem;
+  }
+}
+.small-card {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+.card-introduction {
+  font-size: 18px;
+}
+
+@media (min-width: 800px) {
+  .card-introduction {
+    margin-top: -3rem;
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  background-color: #f9e9e0;
+  color: #541600;
+}
+h1, h2, h3 {
+  font-weight: 400;
+}
+a {
+  color: #cc4700;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.container-section {
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.8);
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width: 850px) {
+  #header .container {
+    padding-left: 0;
+  }
+  .container {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1050px) {
+  #header .container {
+    font-size: 3rem;
+  }
+  .container {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 1250px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  flex-direction: column;
+}
+
+#footer {
+  padding: 3rem 0;
+  background-color: #8F3200;
+  background-color: #B94100;
+  color: #fbf3ef;
+  color: #FF9359;
+}
+#footer a {
+  color: #fbf3ef;
+}
+.footer-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-grid img {
+  margin-right: 1rem;
+}

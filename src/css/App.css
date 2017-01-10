@@ -25,6 +25,7 @@
 #logo:hover {
   text-decoration: none;
 }
+
 .markdown-body :first-child {
   margin-top: 0
 }
@@ -64,11 +65,11 @@
 }
 
 .card-comment {
-  border-top: 3px solid #fbf3ef;
+  border-top: 3px solid #f9e9e0;
 }
 @media (min-width: 800px) {
   .card-comment {
-    border-left: 3px solid #fbf3ef;
+    border-left: 3px solid #f9e9e0;
     border-top-style: none;
   }
 }
@@ -85,12 +86,15 @@
   justify-content: space-between;
   padding-left: 1rem;
 }
+.icon-wall-grid > div{
+  flex: 0 0 12.5%;
+}
 @media (max-width: 799px) {
   .split-card, .split-body {
     flex-direction: column;
   }
   .icon-wall-grid {
-    display: none;
+    /*display: none;*/
   }
 }
 .split-body {

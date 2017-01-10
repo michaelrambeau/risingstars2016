@@ -15,7 +15,7 @@ function graphFactory ({ projects, entities }) {
       const comment = comments[key] || '(Under construction)'
       const height = Math.max(count * 15 + 100, 150)
       return (
-        <div>
+        <section className="container container-section">
           <a name={tag}></a>
           <div className="card">
             <div className="card-header">
@@ -36,7 +36,7 @@ function graphFactory ({ projects, entities }) {
               </div>
             </div>
           </div>
-        </div>
+        </section>
       )
     }
   }

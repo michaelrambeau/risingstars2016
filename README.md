@@ -24,6 +24,12 @@ Server-side rendering (generate the `/www` folder by a script from my own)
 npm run ssr
 ```
 
+Image compression
+
+```
+imagemin design/project-logos-5x5.png > www/project-logos-5x5.png
+```
+
 
 ## Introduction
 

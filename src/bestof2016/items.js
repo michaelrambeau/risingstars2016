@@ -21,11 +21,11 @@ const items = [
     count: 3
   },
   {
-    title: 'Testing frameworks',
+    title: 'Build tools',
     tag: 'build'
   },
   {
-    title: 'Build tools',
+    title: 'Testing frameworks',
     tag: 'test-framework',
     count: 5
   },

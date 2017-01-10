@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Description from './Description'
+// import Description from './Description'
 // import Delta from '../common/utils/Delta'
 // import Stars from '../common/utils/Stars'
 // import TagLabel from '../tags/TagLabelCompact'
