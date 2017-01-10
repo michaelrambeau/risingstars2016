@@ -24,11 +24,18 @@ Server-side rendering (generate the `/www` folder by a script from my own)
 npm run ssr
 ```
 
-Image compression
+Image compression, assuming that the image was created inside a `design` folder
+
 
 ```
-imagemin design/project-logos-5x5.png > www/project-logos-5x5.png
+imagemin design/project-logos-5x5.png > public/2016/project-logos-5x5.png
 ```
+
+## Deploy to github pages (the production version)
+
+From this repo, copy `/www/2016` folder to `/2016` folder in `gh-pages` branch of `bestofjs`.
+
+Check the result: http://bestof.js.org/2016/
 
 
 ## Introduction
