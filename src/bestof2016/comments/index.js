@@ -16,12 +16,6 @@
 //
 // ### Mobile: the rise of React Native 📱
 //
-// {react} is number 2, no front-end developer can ignore React and its rich eco-system.
-//
-// But what is more impressive is the rise of {react-native}. With React Native, from the same code base, you can build iOS and Android real **native** mobile applications, using concepts familiar to React developers. To know more about building applications for both iOS and Android, read [this tutorial](http://makeitopen.com/).
-//
-// Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient than a native solution.
-// It's a mobile developer dream came true !
 
 const all = `
 ### Overview
@@ -30,9 +24,9 @@ By checking the 10 hottest projects of the year, you can get a good overview of 
 
 * 2 UI frameworks: {vuejs} and {react}
 * The leading solution to build desktop applications: {electron}
-* 1 mobile framework: {react-native}
+* A mobile framework: {react-native}
 * The most famous CSS toolkit: {bootstrap}
-* The state management library based on functional concepts: {redux}
+* A state management library based on functional concepts: {redux}
 * A powerful and flexible chart library: {d3}
 * An IDE: {visual-studio-code} (developers love their every day tools!)
 * JavaScript server-side with {nodejs} itself
@@ -48,12 +42,14 @@ The [version 2](https://medium.com/the-vue-point/vue-2-0-is-here-ef1f26acf4b8#.l
 
 {vuejs} is used in production by big companies (including Alibaba, the biggest e-commerce company in China), so you can consider it as a safe choice.
 
+There is already a quite mature eco-system around it, including a router ({vue-router}) and a state management library ({vuex}).
+
 It seems that {vuejs} took the best of {react} (the component approach) and {angularjs} (templates are html code enhanced by the framework features).
 
 `
 
 const framework = `
-This "Front-end framework" category is maybe the one that is responsible for what was called the JavaScript fatigue in 2016.
+This "Front-end framework" category is maybe the one that is responsible for what was called "the JavaScript fatigue" in 2016.
 It seemed that every month a new contender made the buzz, pushing the pace of innovation...
 
 We have already mentioned {vuejs} (number 1 overall).
@@ -71,6 +67,37 @@ Angular project has been split into 2 repositories because Angular 2 is a full r
 * {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a "compat" module to include easily existing React modules...
 `
 
+const nodejsframework = `
+When you have to build a web application with node.js, {express} is often considered as the de-facto web server.
+Its philosophy (a minimalistic core that you can extend using middleware packages) is familiar to most of node.js developers.
+
+{koa} philosophy is closed to {express} but it's built using ES6 generators to avoid a problem sometimes called "The callback hell".
+
+{feathers} is a solution to create a "service oriented" architecture, it's a good fit to create node.js microservices
+ (by the way micro-service was an other buzz word in 2016)
+
+{keystone} is one of the best solutions I know to get an admin client up and running, in order to manage the content coming from a MongoDB database.
+The Admin UI is automatically generated from the models, has all CRUD actions and nice filters.
+`
+
+const mobile = `
+JavaScript is so ubiquitous that you can build native mobile applications using technologies web developers already know (HTML. JavaScript, CSS).
+
+We have seen that {react} is number 2, no front-end developer can ignore React and its rich eco-system. But what is more impressive is the rise of {react-native}.
+
+With React Native, from the same code base, you can build iOS and Android real **native** mobile applications, using concepts familiar to React developers. To know more about building applications for both iOS and Android, read [this tutorial](http://makeitopen.com/).
+
+Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient than a native solution.
+It's a mobile developer dream came true !
+
+{ionic} was a pionner with the concept of "hybrid" applications.
+Under the hood, it's based on Cordova to access the mobile device features. It's very mature with a large eco-system.
+
+{nativescript} aims for the same goal as {react-native} (build real mobile applications using web technologies). It comes in 2 flavors, NativeScript Core and NativeScript + Angular 2
+
+A project to follow closely in 2017: [Weex](https://weex-project.io/), "a framework for building Mobile cross-platform UI" built on top of {vuejs}.
+`
+
 const testframework = `
 The 2 more most popular testing framework are {jasmine} and {mocha} but 2 more recent projects got more traction in 2016: {ava} and {jest}.
 
@@ -82,7 +109,11 @@ The 2 more most popular testing framework are {jasmine} and {mocha} but 2 more r
 const ide = `
 About IDE ("Integrated development environment"), it's worth to mention that 2 of the most popular IDEs are open-source projects made with web technologies.
 
-In our results, Microsoft leads the way with {visual-studio-code} that provides a nice integration with TypeScript and node.js. Saying "open source" and "Microsoft" in the same sentence is no more an oxymore!
+In our results, Microsoft leads the way with {visual-studio-code}.
+
+It provides a nice integration with {typescript} and node.js.
+Some developers mention improvement about development speed and thank to the "IntelliSense" feature (a mix of highlighting and autocomplete).
+Saying "open source" and "Microsoft" in the same sentence is no more an oxymoron!
 
 {atom}, pushed by Github and built with {electron} (like several other desktop applications, including the Slack desktop client) is not far behind {visual-studio-code}. A fun fact about Atom: its main language is CoffeeScript!
 `
@@ -124,7 +155,7 @@ So how to start creating a real-world application ?
 
 It's the answer provided by the React "boilerplates" and other "starter kits"...
 
-The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology. It let developers create what is called "Progressive Web Applications" (or "PWA")
+The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology. It let developers create what is called "Progressive Web Applications" (or "PWA").
 
 Facebook addressed the need by providing a lighter approach called {create-react-app} that is a very convenient to start a new React project. Dan Abramov (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features.
 `
@@ -154,7 +185,7 @@ SSG are very popular because there are a lot of very good solutions to host stat
 
 About the 2 most trendy (built with JavaScript) SSG in 2016:
 
-{hexo} is a thorough SSG, closed to CMS systems like Wordpress, that can be used to build a blog for example.
+{hexo} is a thorough SSG, close to CMS systems like Wordpress, that can be used to build a blog for example.
 It has a lot of features including an internationalization plugin.
 
 The newcomer {gatsby} is a very interesting solution, it stands out from its condenders because it uses React eco system to generate static html files. The fact that you can combine React components, mardown files and server-side rendering makes it very powerful.
@@ -163,7 +194,9 @@ The newcomer {gatsby} is a very interesting solution, it stands out from its con
 export default {
   all,
   framework,
+  nodejsframework,
   reacttemplate,
+  mobile,
   ide,
   compiler,
   build,

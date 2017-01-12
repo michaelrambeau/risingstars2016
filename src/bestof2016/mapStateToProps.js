@@ -32,7 +32,8 @@ function mapStateToProps (state, props) {
     'css-tool',
     'desktop',
     'ide',
-    'ssg'
+    'ssg',
+    'mobile'
   ]
 
   const filteredProjects = tags

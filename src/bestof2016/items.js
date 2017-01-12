@@ -1,19 +1,30 @@
+// The page items, used to generate the "Table of Contents" and the main content.
 const items = [
   {
-    title: 'Overall most trendy projects',
+    title: 'Most Popular Projects in 2016',
     tag: 'all',
     excluded: ['awesome', 'you-dont-know-js', 'airbnb-style-guide'],
     count: 10
   },
   {
-    title: 'Front-end frameworks',
+    title: 'Front-end Frameworks',
     tag: 'framework',
     count: 15
   },
   {
-    title: 'React boilerplates',
+    title: 'Node.js Frameworks',
+    tag: 'nodejs-framework',
+    count: 10
+  },
+  {
+    title: 'React Boilerplates',
     tag: 'react-template',
     count: 10
+  },
+  {
+    title: 'Mobile',
+    tag: 'mobile',
+    count: 3
   },
   {
     title: 'Compilers',
@@ -21,21 +32,21 @@ const items = [
     count: 3
   },
   {
-    title: 'Build tools',
+    title: 'Build Tools',
     tag: 'build'
   },
   {
-    title: 'Testing frameworks',
+    title: 'Testing Frameworks',
     tag: 'test-framework',
     count: 5
   },
   {
     title: 'IDE',
     tag: 'ide',
-    count: 5
+    count: 3
   },
   {
-    title: 'Static site generators',
+    title: 'Static Site Generators',
     tag: 'ssg',
     count: 5
   }

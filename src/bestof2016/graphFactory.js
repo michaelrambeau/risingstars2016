@@ -15,24 +15,28 @@ function graphFactory ({ projects, entities }) {
       const comment = comments[key] || '(Under construction)'
       const height = Math.max(count * 15 + 100, 150)
       return (
-        <section className="container container-section">
-          <a name={tag}></a>
-          <div className="card">
-            <div className="card-header">
-              {false && <div className="card-header-number">#{number}</div>}
-              <div className="card-header-title">
-                <span className="card-header-number">#{number}</span>
-                {' '}
-                {title}
-              </div>
-            </div>
-            <div className="split-body">
-              <div className="card-body">
-                <Graph projects={graphProjects} sortOrder={'yearly'} width={350} height={height} />
-                <ProjectTable projects={graphProjects.slice(0, 10)} />
-              </div>
-              <div className="card-comment markdown-body">
-                <Markdown source={comment} entities={entities} />
+        <section className="section">
+          <div className="container">
+            <a name={tag}></a>
+            <div className="tag-card">
+              <div className="tag-card-inner">
+                <div className="tag-card-header">
+                  <div className="tag-card-header-text">
+                    <span className="tag-card-number">#{number}</span>
+                    <span>{title}</span>
+                  </div>
+                </div>
+                <div className="tag-card-body">
+                  <div className="tag-card-graph">
+                    <div className="tag-card-graph-container">
+                      <Graph projects={graphProjects} sortOrder={'yearly'} width={350} height={height} />
+                    </div>
+                    <ProjectTable projects={graphProjects.slice(0, 10)} />
+                  </div>
+                  <div className="tag-card-comments markdown-body">
+                    <Markdown source={comment} entities={entities} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

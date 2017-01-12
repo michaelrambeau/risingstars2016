@@ -11,6 +11,8 @@ import './css/App.css'
 import './css/ProjectTable.css'
 import './css/social.css'
 import './css/Picture.css'
+import './css/TagCard.css'
+import './css/Header.css'
 
 function fetchData () {
   const url = 'https://bestofjs-api-dev.firebaseapp.com/projects.json'

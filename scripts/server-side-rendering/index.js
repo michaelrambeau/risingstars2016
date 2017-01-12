@@ -33,7 +33,8 @@ fetch(url)
     )
   })
   .then(data => copyCss())
-  .then(data => copyImage())
+  .then(data => copyImage('project-logos-5x5.png'))
+  .then(data => copyImage('star.svg'))
   .catch(err => console.error('Unexpected error during server-side rendering', err))
 
 function renderApp (state) {
@@ -71,8 +72,7 @@ function copyCss () {
 }
 
 // Copy the image file (used by the CSS file) from `build` to `www` folder
-function copyImage () {
-  const filename = 'project-logos-5x5.png'
+function copyImage (filename) {
   const source = path.resolve(process.cwd(), 'build', rootFolder, filename)
   const destination = path.resolve(process.cwd(), 'www', rootFolder, filename)
   return new Promise((resolve, reject) => {

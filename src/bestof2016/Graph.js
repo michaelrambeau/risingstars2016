@@ -42,16 +42,13 @@ function getGraphData (projects, sortOrder) {
 }
 
 function formatDelta (delta, decimals = 0) {
-  // return `+${delta}☆☆`
   const numberFormat = decimals === 0 ? '0' : `0.${'0'.repeat(decimals)}`
   const formattedNumber = numeral(delta).format(`${numberFormat}a`)
-  // const formattedNumber = numeral(delta).format(`0a`)
-  return `+${formattedNumber}☆`
+  return `+${formattedNumber}`
 }
 
 const MyBarLabel = (props) => {
   const url = props.datum.url
-  // const text = `${props.text} (${formatDelta(props.datum.y, 1)})`
   return (
     <a href={url} target="_blank">
       <VictoryLabel {...props} />
@@ -91,10 +88,10 @@ const Graph = ({ projects, sortOrder, width, height }) => {
           labelComponent={<MyBarLabel />}
           style={{
             data: {
-              fill: project => project.color
+              fill: project => '#FFAC2C',// project.color
             },
             labels: {
-              fill: project => project.color,
+              fill: project => '#541600', // project.color,
               cursor: 'pointer'
             }
           }}
