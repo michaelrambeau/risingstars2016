@@ -14,6 +14,10 @@ process.env.NODE_ENV = 'production'
 // const url = 'https://bestofjs-api-dev.firebaseapp.com/projects.json'
 import projects from '../../public/projects.json'
 import manifest from '../../build/asset-manifest.json'
+import packageJson from '../../package.json'
+
+const homepage = packageJson.homepage
+process.env.PUBLIC_URL = `${homepage}`
 
 const rootFolder = 'docs'
 
