@@ -16,7 +16,7 @@ function getFullPage (appHtml) {
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#e65100">
     <!-- added for Github pages -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/risingstars2016/favicon.ico">
     <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet">

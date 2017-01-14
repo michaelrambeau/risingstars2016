@@ -16,6 +16,7 @@ import projects from '../../public/projects.json'
 import manifest from '../../build/asset-manifest.json'
 
 const rootFolder = 'docs'
+const assetsFolder = 'risingstars2016'
 
 Promise.resolve(projects)
 // fetch(url)
@@ -36,9 +37,9 @@ Promise.resolve(projects)
   })
   .then(data => copyCss())
   .then(data => copyImage('favicon.ico'))
-  .then(data => copyImage('img/logos-bg.png'))
-  .then(data => copyImage('img/rising-stars.png'))
-  .then(data => copyImage('img/star.svg'))
+  .then(data => copyImage('logos-bg.png'))
+  .then(data => copyImage('rising-stars.png'))
+  .then(data => copyImage('star.svg'))
   .catch(err => console.error('Unexpected error during server-side rendering', err))
 
 function renderApp (state) {
@@ -77,8 +78,8 @@ function copyCss () {
 
 // Copy the image file (used by the CSS file) from `build` to `www` folder
 function copyImage (filename) {
-  const source = path.resolve(process.cwd(), 'build', filename)
-  const destination = path.resolve(process.cwd(), rootFolder, filename)
+  const source = path.resolve(process.cwd(), 'build', assetsFolder, filename)
+  const destination = path.resolve(process.cwd(), rootFolder, assetsFolder, filename)
   return new Promise((resolve, reject) => {
     fs.copy(source, destination, (err, data) => {
       if (err) return reject(err)
