@@ -71,7 +71,7 @@ const nodejsframework = `
 When you have to build a web application with node.js, {express} is often considered as the de-facto web server.
 Its philosophy (a minimalistic core that you can extend using middleware packages) is familiar to most of node.js developers.
 
-{koa} philosophy is closed to {express} but it's built using ES6 generators to avoid a problem sometimes called "The callback hell".
+{koa} philosophy is close to {express} but it's built using ES6 generators to avoid a problem sometimes called "The callback hell".
 
 {feathers} is a solution to create a "service oriented" architecture, it's a good fit to create node.js microservices
  (by the way micro-service was an other buzz word in 2016)
@@ -132,7 +132,10 @@ There are pros and cons about using types in JavaScript, read these 2 article to
 
 {babel}, along with Webpack, almost became a standard to compile ES6 code and templates used by libraries like React (JSX) in standard JavaScript. Initially created to compile ES6, it became a much more generic tool that can accomplish any code transformation, thank to a system of plugins.
 
-{flow} is not exactly a compiler, it's a static type checker used to annotate the JavaScript. It's used in all code source from Facebook projects. Since Facebook became one of the major actors of the open source world (with projects like {react}, {react-native}, {flux}, {immutable}, {jest}...), that means a lot.
+{flow} is not a compiler, it's a static type checker used to "annotate" the JavaScript code.
+Basically using Flow inside a code base means adding comments to describe expected types (read more about using Flow to write modules [here](http://javascriptplayground.com/blog/2017/01/npm-flowjs-javascript/)).
+
+It's used inside the code source of Facebook projects. Since Facebook became one of the major actors of the open source world (with projects like {react}, {react-native}, {flux}, {immutable}, {jest}...), that means a lot.
 
 During years {coffeescript} and its lean syntax, inspired by Python and Ruby syntax, was the most popular compiler but it was less more trendy in 2016, a lot of developers moved from CoffeeScript to ES6 with Babel.
 `
@@ -157,9 +160,13 @@ So how to start creating a real-world application ?
 
 It's the answer provided by the React "boilerplates" and other "starter kits"...
 
-The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology. It let developers create what is called "Progressive Web Applications" (or "PWA").
+The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology.
+It let developers create what is called "Progressive Web Applications" (or "PWA"): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua)
 
 Facebook addressed the need by providing a lighter approach called {create-react-app} that is a very convenient to start a new React project. Dan Abramov (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features.
+
+{nextjs}, created by the busy folks from [Zeit](https://zeit.co/), has a server-side rendering feaure that can be used to create *universal* applications (or *isomorphic* applications, as we used to say in 2015), that is to say applications that run more or less with the same code client AND server-side.
+
 `
 
 const vdom = `

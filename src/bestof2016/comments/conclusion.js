@@ -18,7 +18,7 @@ So if you want a more qualitative approach, check the results from Sacha Greif‚Ä
 ---
 
 It's time to think about 2017, where are the next rising stars?
-If had to pick 10 projects or concepts that will keep up growing, I'd choose:
+Here my 10 picks of the year, the projects and the ideas I liked in 2016 and that will keep up growing in 2017:
 
 * {vuejs}: the momentum will not stop
 * {electron}
@@ -26,13 +26,13 @@ If had to pick 10 projects or concepts that will keep up growing, I'd choose:
 * {react-native}
 * {gatsby}
 * {yarn}: it's nice to see the community working hard to make npm (our every day tool) better
-* The concept of "Progressive Web Applications" (web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicol√°s Bevacqua)
-* Micro-services with node.js
-* I was amazed by what did folks from [Zeit](https://zeit.co/), especially their hosting solution called [now](https://zeit.co/now) and projects like {nextjs}.
+* The concept of "Progressive Web Applications"
+* Micro-services with node.js, made easy to deploy with solutions like [Now](https://zeit.co/now), [Webtask.io](https://webtask.io/) or [Stdlib](https://stdlib.com/)
+* The amazing work by the [Zeit](https://zeit.co/) team, especially their hosting solution called [now](https://zeit.co/now) and projects like {nextjs}.
 * {graphql}: all my friends told me that something big is coming!
 
 ---
 
-Thank you for your attention, feel free to share this article or to reach us on Github [bestof.js.org](http://bestof.js.org/) repository!
+Thank you for your attention, feel free to share this article or to reach us on [Github](https://github.com/michaelrambeau/risingstars2016)!
 `
 export default conclusion
