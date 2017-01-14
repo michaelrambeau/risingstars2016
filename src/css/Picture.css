@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  background: #e65100 url('/risingstars2016/logos-bg.png')
+  background: #e65100 url('logos-bg.png')
 }
 @media (min-width: 800px) {
   #picture-block {

@@ -1,5 +1,6 @@
 {
   "name": "bestof2016-react",
+  "homepage": "https://michaelrambeau.github.io/risingstars2016",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {

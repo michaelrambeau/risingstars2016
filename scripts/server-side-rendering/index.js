@@ -16,7 +16,6 @@ import projects from '../../public/projects.json'
 import manifest from '../../build/asset-manifest.json'
 
 const rootFolder = 'docs'
-const assetsFolder = 'risingstars2016'
 
 Promise.resolve(projects)
 // fetch(url)
@@ -78,8 +77,8 @@ function copyCss () {
 
 // Copy the image file (used by the CSS file) from `build` to `www` folder
 function copyImage (filename) {
-  const source = path.resolve(process.cwd(), 'build', assetsFolder, filename)
-  const destination = path.resolve(process.cwd(), rootFolder, assetsFolder, filename)
+  const source = path.resolve(process.cwd(), 'build/static/media')
+  const destination = path.resolve(process.cwd(), rootFolder, 'static/media')
   return new Promise((resolve, reject) => {
     fs.copy(source, destination, (err, data) => {
       if (err) return reject(err)
