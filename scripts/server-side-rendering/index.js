@@ -40,7 +40,7 @@ Promise.resolve(projects)
   })
   .then(data => copyCss())
   .then(data => copyFolder('build/static/media', 'docs/static/media'))
-  .then(data => copyFolder('build/img', 'docs'))
+  .then(data => copyFolder('build/img', 'docs/img'))
   .catch(err => console.error('Unexpected error during server-side rendering', err))
 
 function renderApp (state) {
