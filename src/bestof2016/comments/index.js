@@ -9,13 +9,6 @@
 // ### How to be awesome 😎
 //
 // The project number 3 is also about learning and documentation: The {awesome} list concept, created by Sindre Sorhus.
-//
-// The concept is very simple: gather the best links about a given topic in a simple document written in markdown language and stored on Github so that any one can contribute.
-//
-// It's not limited to web development, you will find there tons of useful resources about a large range of topics, including machine learning, games, the block chain...
-//
-// ### Mobile: the rise of React Native 📱
-//
 
 const all = `
 ### Overview
@@ -51,6 +44,9 @@ It seems that {vuejs} took the best of {react} (the component approach) and {ang
 const framework = `
 This "Front-end framework" category is maybe the one that is responsible for what was called "the JavaScript fatigue" in 2016.
 It seemed that every month a new contender made the buzz, pushing the pace of innovation...
+To be exact, we mix in this category 2 kinds of projects:
+* Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angularjs}, {angular-2}, {ember} or {aurelia} are in this category.
+* Lighter solutions that focus on the UI layer, like {react}, {vuejs}, {inferno}...
 
 We have already mentioned {vuejs} (number 1 overall).
 
@@ -65,6 +61,10 @@ Angular project has been split into 2 repositories because Angular 2 is a full r
 
 * {inferno} was the most popular project in this category, it claims to be the fatest alternative to React
 * {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a "compat" module to include easily existing React modules...
+
+It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
+
+Rather than opting for full frameworks with all features "out of the box", it seems that developers in 2016 flavor ligher approaches and prefer to compose their own solution "à la carte".
 `
 
 const nodejsframework = `
@@ -88,7 +88,7 @@ We have seen that {react} is number 2, no front-end developer can ignore React a
 With React Native, from the same code base, you can build iOS and Android real **native** mobile applications, using concepts familiar to React developers. To know more about building applications for both iOS and Android, read [this tutorial](http://makeitopen.com/).
 
 Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient than a native solution.
-It's a mobile developer dream came true !
+"Write Once Run Everywhere"... a developer's dream came true!
 
 {ionic} was a pionner with the concept of "hybrid" applications.
 Under the hood, it's based on Cordova to access the mobile device features. It's very mature with a large eco-system.
@@ -131,6 +131,8 @@ There are pros and cons about using types in JavaScript, read these 2 article to
 * [TypeScript: the missing introduction](https://toddmotto.com/typescript-the-missing-introduction)
 
 {babel}, along with Webpack, almost became a standard to compile ES6 code and templates used by libraries like React (JSX) in standard JavaScript. Initially created to compile ES6, it became a much more generic tool that can accomplish any code transformation, thank to a system of plugins.
+
+{flow} is not exactly a compiler, it's a static type checker used to annotate the JavaScript. It's used in all code source from Facebook projects. Since Facebook became one of the major actors of the open source world (with projects like {react}, {react-native}, {flux}, {immutable}, {jest}...), that means a lot.
 
 During years {coffeescript} and its lean syntax, inspired by Python and Ruby syntax, was the most popular compiler but it was less more trendy in 2016, a lot of developers moved from CoffeeScript to ES6 with Babel.
 `

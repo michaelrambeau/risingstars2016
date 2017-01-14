@@ -29,7 +29,7 @@ const items = [
   {
     title: 'Compilers',
     tag: 'compiler',
-    count: 3
+    count: 10
   },
   {
     title: 'Build Tools',

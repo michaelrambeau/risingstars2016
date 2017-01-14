@@ -1,8 +1,10 @@
 import React from 'react'
 
-// import Markdown from './Markdown'
 import graphFactory from './graphFactory'
 // import ProjectIconWall from './ProjectIconWall'
+// import BgPicture from './BgPicture'
+// <ProjectIconWall projects={projects.all} />
+// <BgPicture projects={projects.all} />
 import items from './items'
 import Introduction from './Introduction'
 import Conclusion from './Conclusion'

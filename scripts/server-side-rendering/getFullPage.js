@@ -12,13 +12,14 @@ function getFullPage (appHtml) {
     <meta name="description" content="${description}">
     <meta content="${title}" property="og:title">
     <meta content="${description}" property="og:description">
-    <meta content="http://bestof.js.org/images/logo2.png" property="og:image">
+    <meta content="/2016/rising-stars.png" property="og:image">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#e65100">
     <!-- added for Github pages -->
     <link rel="shortcut icon" href="/favicon.ico">
     <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet">
   </head>
   <body>
     <div id="root">${appHtml}</div>

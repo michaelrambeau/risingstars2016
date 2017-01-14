@@ -16,8 +16,9 @@ a {
   color: #cc4700;
   text-decoration: none;
 }
-a:hover {
+a[:not(.resp-sharing-button__link)]:hover {
   text-decoration: underline;
+  color: #E65000;
 }
 
 .container {
@@ -80,6 +81,7 @@ h1 {
   display: flex;
   justify-content:space-around;
   flex-direction: column;
+  align-items: center;
 }
 .share-buttons > div {
   /*text-align: center;*/
@@ -93,6 +95,11 @@ h1 {
     /*text-align: center;*/
     padding: 0;
   }
+}
+
+.card-conclusion p,
+.card-conclusion li {
+  font-size: 1.25rem;
 }
 
 #footer {

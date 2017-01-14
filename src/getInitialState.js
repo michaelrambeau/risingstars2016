@@ -75,7 +75,7 @@ function processProject (item) {
       weekly: roundAverage(weeklyTotal / 7),
       monthly: monthlyStars.length > 0 ? addedAverage(monthlyStars[0], 30) : null,
       quaterly: monthlyStars.length > 0 ? addedAverage(nthElement(monthlyStars, 2), 90) : null,
-      yearly: item.monthly.length > 0 ? addedAverage(item.monthly[0], 1) : null
+      yearly: item.monthly.length > 0 ? nthElement(monthlyStars, 0) - nthElement(monthlyStars, 6) : null
     },
     monthly: item.monthly,
     svglogo: item.svglogo,

@@ -21,6 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "ssr": "babel-node scripts/server-side-rendering/index"
+    "ssr": "babel-node scripts/server-side-rendering/index",
+    "img": "imagemin design/*.png --out-dir=public/2016"
   }
 }

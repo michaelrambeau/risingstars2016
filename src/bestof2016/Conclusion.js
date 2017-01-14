@@ -14,9 +14,8 @@ const Conclusion = ({ entities }) => (
       </div>
       <div className="markdown-body">
         <Markdown source={conclusion} entities={entities} />
-        <hr />
-        <div>
-          {true && <p style={{ textAlign: 'center' }}>Spread the word!</p>}
+        <div className="conclusion-share-buttons">
+          {false && <p style={{ textAlign: 'center' }}>Spread the word!</p>}
           <Social
             url={'http://bestof.js.org/2016/'}
             text={'Check the JavaScript landscape in 2016'}
