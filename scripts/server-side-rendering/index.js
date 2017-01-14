@@ -39,10 +39,8 @@ Promise.resolve(projects)
     )
   })
   .then(data => copyCss())
-  .then(data => copyImage('favicon.ico'))
-  .then(data => copyImage('logos-bg.png'))
-  .then(data => copyImage('rising-stars.png'))
-  .then(data => copyImage('star.svg'))
+  .then(data => copyFolder('build/static/media', 'docs/static/media'))
+  .then(data => copyFolder('build/img', 'docs'))
   .catch(err => console.error('Unexpected error during server-side rendering', err))
 
 function renderApp (state) {
@@ -80,9 +78,9 @@ function copyCss () {
 }
 
 // Copy the image file (used by the CSS file) from `build` to `www` folder
-function copyImage (filename) {
-  const source = path.resolve(process.cwd(), 'build/static/media')
-  const destination = path.resolve(process.cwd(), rootFolder, 'static/media')
+function copyFolder (folderSource, folderDest) {
+  const source = path.resolve(process.cwd(), folderSource)
+  const destination = path.resolve(process.cwd(), folderDest)
   return new Promise((resolve, reject) => {
     fs.copy(source, destination, (err, data) => {
       if (err) return reject(err)
