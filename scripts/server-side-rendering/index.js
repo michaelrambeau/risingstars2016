@@ -34,7 +34,7 @@ Promise.resolve(projects)
     const state = getInitialState(json)
     const html = renderApp(state)
     return writeHtml(
-      getFullPage(html),
+      getFullPage(html, homepage),
       'index.html'
     )
   })
