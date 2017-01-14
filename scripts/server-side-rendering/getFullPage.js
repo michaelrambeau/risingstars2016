@@ -12,7 +12,7 @@ function getFullPage (appHtml) {
     <meta name="description" content="${description}">
     <meta content="${title}" property="og:title">
     <meta content="${description}" property="og:description">
-    <meta content="/2016/rising-stars.png" property="og:image">
+    <meta content="/img/rising-stars.png" property="og:image">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#e65100">
     <!-- added for Github pages -->

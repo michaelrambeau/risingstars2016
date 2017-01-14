@@ -16,9 +16,10 @@ import './css/Header.css'
 
 function fetchData () {
   // const url = 'https://bestofjs-api-dev.firebaseapp.com/projects.json'
-  const url = '/2016/projects.json'
+  const url = '/projects.json'
   return window.fetch(url)
     .then(r => r.json())
+    .catch(e => console.error('Unable to fetch json data', e))
 }
 
 fetchData()
