@@ -1,7 +1,7 @@
 // `npm run build-html` entry script
 // Get project data from a static json file and build `docs/index.html` file
 
-import fetch from 'node-fetch'
+// import fetch from 'node-fetch'
 import fs from 'fs-extra'
 import path from 'path'
 import { renderToString } from 'react-dom/server'
