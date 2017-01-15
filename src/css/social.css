@@ -8,6 +8,9 @@
   color: #fff;
   margin: 0.5em
 }
+.resp-sharing-button__link:hover {
+  text-decoration: none;
+}
 
 .resp-sharing-button {
   border-radius: 5px;
