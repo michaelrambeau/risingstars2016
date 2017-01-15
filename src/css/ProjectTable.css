@@ -26,15 +26,33 @@
     padding: 5px 0;
 }
 .project-table-row:first-child .avatar-section {
-    border-top: 1px dashed #FFAC2C;
+    border-top: 1px solid #FFAC2C;
 }
 .project-table-row .description-section {
-    padding: 1rem;
+    padding: 1rem 0;
+    height: 50px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    border-bottom: 1px solid #FFAC2C;
+    font-style: italic;
 }
 .project-table-row .project-title {
     flex-grow: 1;
     text-align: center;
+}
+/*.project-table-rank {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #FFAC2C;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}*/
+.project-table-rank {
+  color: #FFAC2C;
+  margin-right: .25rem;
 }

@@ -42,13 +42,15 @@ It seems that {vuejs} took the best of {react} (the component approach) and {ang
 `
 
 const framework = `
-This "Front-end framework" category is maybe the one that is responsible for what was called "the JavaScript fatigue" in 2016.
-It seemed that every month a new contender made the buzz, pushing the pace of innovation...
-To be exact, we mix in this category 2 kinds of projects:
+This *Front-end Frameworks* category is maybe the one that is responsible for what was called [the JavaScript fatigue](https://medium.freecodecamp.com/javascript-fatigue-fatigue-66ffb619f6ce#.soeh5g56p) in 2016.
+It seemed that every month a new contender made the buzz, pushing the pace of innovation!
+
+To be exact, 2 kinds of projects are mixed in the category:
+
 * Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angularjs}, {angular-2}, {ember} or {aurelia} are in this category.
 * Lighter solutions that focus on the UI layer, like {react}, {vuejs}, {inferno}...
 
-We have already mentioned {vuejs} (number 1 overall).
+We have already mentioned {vuejs} (number 1 overall), let's see the other contenders.
 
 #### React and its contenders
 
@@ -68,15 +70,17 @@ Angular project has been split into 2 repositories because Angular 2 is a full r
 
 It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
 
-Rather than opting for full frameworks with all features "out of the box", it seems that developers in 2016 flavor ligher approaches and prefer to compose their own solution "à la carte".
+So it seems that, rather than opting for full frameworks with all features "out of the box", developers in 2016 flavored ligher approaches and prefer to compose their own solution "à la carte".
 `
 
 const nodejsframework = `
-In 2016 it has never been easier to create and deploy a node.js application with solutions like
+In 2016 it has never been easier to create and deploy a node.js application with solutions like:
 
 * [Now](https://zeit.co/now)
 * [Webtask.io](https://webtask.io/)
 * [Stdlib](https://stdlib.com/)
+
+Projects like [Gomix](https://gomix.com) even lowered the barrier to the node.js world, making easy to anyone to **write** and **share** node.js code in a few clicks, right from the browser.
 
 So if you have to build a web application, which framework to choose?
 
@@ -128,7 +132,9 @@ Under the hood, it's based on Cordova to access the mobile device features. It's
 
 {nativescript} aims for the same goal as {react-native} (build real mobile applications using web technologies). It comes in 2 flavors, NativeScript Core and NativeScript + Angular 2
 
-A project to follow closely in 2017: [Weex](https://weex-project.io/), "a framework for building Mobile cross-platform UI" built on top of {vuejs}.
+#### Looking forward
+
+A project to follow closely in 2017: [Weex](https://weex-project.io/), *a framework for building Mobile cross-platform UI* built on top of {vuejs}.
 `
 
 const testframework = `
@@ -146,19 +152,20 @@ Jest has good mocking abilities built-in, whereas other testing frameworks usual
 `
 
 const ide = `
-About IDE ("Integrated development environment"), it's worth to mention that 2 of the most popular IDEs are open-source projects made with web technologies.
+About IDE (*Integrated Development Environment*), it's worth to mention that 2 of the most popular IDEs are open-source projects made with web technologies.
 
 #### {visual-studio-code}
 
 In our results, Microsoft leads the way with {visual-studio-code}.
 
 It provides a nice integration with {typescript} and node.js.
-Some developers mention improvement about development speed and thank to the "IntelliSense" feature (a mix of highlighting and autocomplete).
+Some developers mention improvement about development speed and thank to the *IntelliSense* feature (a mix of highlighting and autocomplete).
+
 Saying "open source" and "Microsoft" in the same sentence is no more an oxymoron!
 
 #### {atom}
 
-{atom}, pushed by Github and built with {electron} (like several other desktop applications, including the Slack desktop client) is not far behind {visual-studio-code}. A fun fact about Atom: its main language is CoffeeScript!
+{atom}, pushed by Github and built with {electron} (like several other desktop applications, including the Slack desktop client) is not far behind {visual-studio-code}. An interesting fact about Atom: its main language is CoffeeScript!
 `
 
 const compiler = `
@@ -228,15 +235,15 @@ It's the answer provided by the React "boilerplates" and other "starter kits"...
 
 The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology.
 
-It let developers create what is called "Progressive Web Applications" (or "PWA"): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua)
+It let developers create what is called *Progressive Web Applications* (or *PWA*): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua.
 
 #### {create-react-app}
 
 Facebook addressed the need by providing a lighter approach called {create-react-app} that is a very convenient to start a new React project.
 
-[Dan Abramov](https://github.com/gaearon) (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features. No fancy styling solution (just plain CSS), no server-side rendering but everything is well packaged.
+[Dan Abramov](https://github.com/gaearon) (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features. For example there is mo fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
 
-The main difference with its contenders is that if you use create-react-app, it becomes a dependency of your project, all the magic is hidden and what you see is only **your** application code. You can upgrade the dependency at any time.
+The main difference with its contenders is that if you use {create-react-app}, it becomes a dependency of your project, all the magic is hidden and what you see is only **your** application code. You can upgrade the dependency at any time, it's not just a starting point.
 
 #### {nextjs}
 
@@ -247,7 +254,7 @@ The main difference with its contenders is that if you use create-react-app, it 
 const vdom = `
 {react} is so popular that it inspired several other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
 * {inferno} was the most popular project in this category, it claims to be the fatest alternative to React
-* {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a "compat" module to include easily existing React modules...
+* {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a *compat* module to include easily existing React modules...
 * {riotjs} strives for performance and simplicity but takes a totally different approach, it does not uses any JSX-like language but uses html templates instead.
 `
 

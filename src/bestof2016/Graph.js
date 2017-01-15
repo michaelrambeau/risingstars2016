@@ -58,7 +58,7 @@ const MyBarLabel = (props) => {
 
 const Graph = ({ projects, sortOrder, width, height }) => {
   return (
-    <div>
+    <div className="tag-card-graph-container">
       <VictoryChart
         domainPadding={20}
         padding={styles.chart.padding}

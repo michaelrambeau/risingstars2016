@@ -27,14 +27,14 @@ function graphFactory ({ projects, entities }) {
                   </div>
                 </div>
                 <div className="tag-card-body">
-                  <div className="tag-card-graph">
-                    <div className="tag-card-graph-container">
-                      <Graph projects={graphProjects} sortOrder={'yearly'} width={350} height={height} />
-                    </div>
+                  <div className="tag-card-column-1">
+                    <Graph projects={graphProjects} sortOrder={'yearly'} width={350} height={height} />
                     <ProjectTable projects={graphProjects.slice(0, 10)} />
                   </div>
-                  <div className="tag-card-comments markdown-body">
-                    <Markdown source={comment} entities={entities} />
+                  <div className="tag-card-column-2">
+                    <div className="tag-card-comments markdown-body">
+                      <Markdown source={comment} entities={entities} />
+                    </div>
                   </div>
                 </div>
               </div>
