@@ -25,26 +25,23 @@ const ProjectTableView = ({ title, comment, icon, projects, showStars, showDelta
 ProjectTableView.Row = ({ project, showStars, showDelta, deltaFilter, showDescription = true, index }) => {
   const url = project.url || project.repository
   return (
-    <div className="project-table-row">
-      <a className="link" href={url}>
-        <div className="avatar-section">
-          {false && <div className="project-table-rank">{index}</div>}
-          <ProjectAvatar project={project} size={50} />
-          <div className="project-title">
+    <a className="project-table-row" href={url}>
+      <ProjectAvatar project={project} size={50} />
+      <div className="main-column">
+        <div className="row-1">
+          <div>
             <span className="project-table-rank">#{index}</span>
             <span>{project.name}</span>
           </div>
-            {showDelta && project.deltas.length > 0 && (
-              <div className="delta">
-                <Stars value={project.stats.yearly} decimals={1} />
-              </div>
-            )}
+          <div>
+            <Stars value={project.stats.yearly} decimals={1} />
+          </div>
         </div>
-        {true && <div className="description-section">
+        <div className="description-section">
           <Description text={project.description} />
-        </div>}
-      </a>
-    </div>
+        </div>
+      </div>
+    </a>
   )
 }
 

@@ -30,7 +30,7 @@ Here are my 10 picks of the year, the projects and the ideas I liked in 2016 and
 * The concept of "Progressive Web Applications"
 * Node.js micro-services made easy to deploy with a hosting solution like [Now](https://zeit.co/now)
 * The evolution of {nodejs}: the latest releases support very well the ES6 syntax
-* {graphql}: all my friends told me that something big is coming!
+* And one more pick would be {graphql}: all my friends told me that something big is coming!
 
 ---
 

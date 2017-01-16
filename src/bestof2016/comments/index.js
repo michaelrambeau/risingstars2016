@@ -108,8 +108,9 @@ The Admin UI is automatically generated from the models, has all CRUD actions an
 
 #### {loopback}
 
-{loopback} is an other mature framework with a lot of features built-in, including authentication with token and connector to any kind of database.
-It has a very nice **API explorer** feature that let developers check all API end-points in an intuitive way, with the ability to check any user's token.
+{loopback} is an other mature framework with a lot of features built-in, including authentication with token and connectors to any kind of database.
+
+The killer feature is the **API explorer** feature that let developers check all API end-points in an intuitive way, with the ability to check any user's token.
 It's definitevely a good choice if you have to build an API.
 `
 

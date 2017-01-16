@@ -1,7 +1,6 @@
 // `npm run build-html` entry script
 // Get project data from a static json file and build `docs/index.html` file
 
-// import fetch from 'node-fetch'
 import fs from 'fs-extra'
 import path from 'path'
 import { renderToString } from 'react-dom/server'
@@ -11,7 +10,6 @@ import getFullPage from './getFullPage'
 import getInitialState from '../../src/getInitialState'
 import App from '../../src/App'
 process.env.NODE_ENV = 'production'
-// const url = 'https://bestofjs-api-dev.firebaseapp.com/projects.json'
 import projects from '../../public/projects.json'
 import manifest from '../../build/asset-manifest.json'
 import packageJson from '../../package.json'
@@ -21,12 +19,10 @@ process.env.PUBLIC_URL = `${homepage}`
 
 const rootFolder = 'docs'
 
+const cssFilename = manifest['main.css']
+if (!cssFilename) throw new Error('Unable to read CSS filename from the manifest file!')
+
 Promise.resolve(projects)
-// fetch(url)
-  // .then(response => {
-  //   console.log('Got the response from', url)
-  //   return response.json()
-  // })
   .then(json => {
     console.log('Got JSON', Object.keys(json))
 
@@ -34,11 +30,11 @@ Promise.resolve(projects)
     const state = getInitialState(json)
     const html = renderApp(state)
     return writeHtml(
-      getFullPage(html, homepage),
+      getFullPage(html, { root: homepage, cssFilename }),
       'index.html'
     )
   })
-  .then(data => copyCss())
+  .then(data => copyCss(cssFilename))
   .then(data => copyFolder('build/static/media', 'docs/static/media'))
   .then(data => copyFolder('build/img', 'docs/img'))
   .catch(err => console.error('Unexpected error during server-side rendering', err))
@@ -63,11 +59,9 @@ function writeHtml (html, filename) {
 }
 
 // Copy the mainXXXX.css file created by the `build` process, from `build` to `www` folder
-function copyCss () {
-  const filename = manifest['main.css']
-  if (!filename) throw new Error('Unable to read CSS filename from the manifest file!')
+function copyCss (filename) {
   const source = path.resolve(process.cwd(), 'build', filename)
-  const destination = path.resolve(process.cwd(), rootFolder, 'main.css')
+  const destination = path.resolve(process.cwd(), rootFolder, filename)
   return new Promise((resolve, reject) => {
     fs.copy(source, destination, (err, data) => {
       if (err) return reject(err)

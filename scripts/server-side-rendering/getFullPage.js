@@ -1,7 +1,7 @@
 const title = '2016 JavaScript Rising Stars'
 const description = 'A complete overview of the JavaScript landscape in 2016: trends about front-end and node.js frameworks, tooling, IDE, Static site generators...'
 
-function getFullPage (appHtml, root) {
+function getFullPage (appHtml, { root, cssFilename }) {
   return `<!doctype html>
 <html>
   <head>
@@ -15,9 +15,8 @@ function getFullPage (appHtml, root) {
     <meta content="${root}/img/rising-stars.png" property="og:image">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#e65100">
-    <!-- added for Github pages -->
     <link rel="shortcut icon" href="${root}/img/favicon.ico">
-    <link href="main.css" rel="stylesheet">
+    <link href="${cssFilename}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet">
   </head>
