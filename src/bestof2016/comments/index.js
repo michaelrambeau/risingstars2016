@@ -58,15 +58,18 @@ We have already mentioned {vuejs} (number 1 overall), let's see the other conten
 
 {react} is so popular that it inspired a lot of other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
 
-* {inferno} was the most popular project in this category, it claims to be the fatest alternative to React
-* {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a "compat" module to include easily existing React modules...
+{inferno} was the most popular project in this category, it claims to be the fatest alternative to React
+
+Following closely Inferno in our rankings, {preact} is a nice alternative to React too.
+It's eco-system is quite mature, for example there is a boilerplate with offline capabilities, a router, a *compat* module so that you can use any existing React library inside your Preact project.
 
 #### Angular 1 and 2
 
 Angular project has been split into 2 repositories because Angular 2 is a full rewrite of Angular 1, even if some concepts remain the same.
 
-* {angular-2} is written in TypeScript and takes advantage of ES6 to deliver a modern and thorough framework
-* {angularjs} project is the branch 1.x, it's still used in many projects and will remain popular for a while.
+{angular-2} is written in TypeScript and takes advantage of ES6 to deliver a modern and thorough framework
+
+{angularjs} project is the branch 1.x, it's still used in many projects and will remain popular for a while.
 
 It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
 
@@ -248,7 +251,7 @@ The main difference with its contenders is that if you use {create-react-app}, i
 
 #### {nextjs}
 
-{nextjs}, created by the busy folks from [Zeit](https://zeit.co/), has a server-side rendering feaure that can be used to create *universal* applications (or *isomorphic* applications, as we used to say in 2015), that is to say applications that run more or less with the same code client AND server-side.
+{nextjs}, created by the busy folks from [Zeit](https://zeit.co/), has a server-side rendering feature that can be used to create *universal* applications (or *isomorphic* applications, as we used to say in 2015), that is to say applications that run more or less with the same code client AND server-side.
 
 `
 
