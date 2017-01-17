@@ -160,7 +160,7 @@ About IDE (*Integrated Development Environment*), it's worth to mention that 2 o
 In our results, Microsoft leads the way with {visual-studio-code}.
 
 It provides a nice integration with {typescript} and node.js.
-Some developers mention improvement about development speed and thank to the *IntelliSense* feature (a mix of highlighting and autocomplete).
+Some developers mention improvement about development speed thank to the *IntelliSense* feature (a mix of highlighting and autocomplete).
 
 Saying "open source" and "Microsoft" in the same sentence is no more an oxymoron!
 
@@ -242,7 +242,7 @@ It let developers create what is called *Progressive Web Applications* (or *PWA*
 
 Facebook addressed the need by providing a lighter approach called {create-react-app} that is a very convenient to start a new React project.
 
-[Dan Abramov](https://github.com/gaearon) (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features. For example there is mo fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
+[Dan Abramov](https://github.com/gaearon) (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features. For example there is no fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
 
 The main difference with its contenders is that if you use {create-react-app}, it becomes a dependency of your project, all the magic is hidden and what you see is only **your** application code. You can upgrade the dependency at any time, it's not just a starting point.
 

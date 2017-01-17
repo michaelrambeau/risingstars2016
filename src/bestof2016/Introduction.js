@@ -5,7 +5,7 @@ import items from './items'
 import intro from './comments/intro'
 import Social from './Social'
 
-const Introduction = ({ entities }) => (
+const Introduction = ({ entities, url }) => (
   <div className="container container-section small-container">
     <div className="small-card markdown-body card-introduction">
       <Markdown source={intro} entities={entities} />
@@ -23,7 +23,7 @@ const Introduction = ({ entities }) => (
       <hr />
       <div>
         <Social
-          url={'http://bestof.js.org/2016/'}
+          url={url}
           text={'Check the JavaScript landscape in 2016'}
         />
       </div>

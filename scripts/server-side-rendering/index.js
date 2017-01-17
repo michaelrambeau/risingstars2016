@@ -9,11 +9,11 @@ import React from 'react'
 import getFullPage from './getFullPage'
 import getInitialState from '../../src/getInitialState'
 import App from '../../src/App'
-process.env.NODE_ENV = 'production'
 import projects from '../../public/projects.json'
 import manifest from '../../build/asset-manifest.json'
 import packageJson from '../../package.json'
 
+process.env.NODE_ENV = 'production'
 const homepage = packageJson.homepage
 process.env.PUBLIC_URL = `${homepage}`
 

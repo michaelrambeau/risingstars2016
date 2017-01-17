@@ -3,7 +3,7 @@ import Markdown from './Markdown'
 import conclusion from './comments/conclusion'
 import Social from './Social'
 
-const Conclusion = ({ entities }) => (
+const Conclusion = ({ entities, url }) => (
   <div className="container small-container">
     <div className="small-card card-conclusion">
       <div className="small-card-header">
@@ -17,7 +17,7 @@ const Conclusion = ({ entities }) => (
         <div className="conclusion-share-buttons">
           {false && <p style={{ textAlign: 'center' }}>Spread the word!</p>}
           <Social
-            url={'http://bestof.js.org/2016/'}
+            url={url}
             text={'Check the JavaScript landscape in 2016'}
           />
         </div>
