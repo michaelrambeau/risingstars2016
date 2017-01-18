@@ -45,7 +45,7 @@ We have already mentioned {vuejs} (number 1 overall), let's see the other conten
 
 {react} is so popular that it inspired a lot of other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
 
-{inferno} was the most popular project in this category, it claims to be the fatest alternative to React
+{inferno} was the most popular project in this category, it claims to be the faster alternative to React
 
 Following closely Inferno in our rankings, {preact} is a nice alternative to React too.
 It's eco-system is quite mature, for example there is a boilerplate with offline capabilities, a router, a *compat* module so that you can use any existing React library inside your Preact project.
@@ -60,7 +60,7 @@ Angular project has been split into 2 repositories because Angular 2 is a full r
 
 It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
 
-So it seems that, rather than opting for full frameworks with all features "out of the box", developers in 2016 flavored ligher approaches and prefer to compose their own solution "à la carte".
+So it seems that, rather than opting for full frameworks with all features "out of the box", developers in 2016 flavored lighter approaches and prefer to compose their own solution "à la carte".
 `
 
 const nodejsframework = `
@@ -101,22 +101,22 @@ The Admin UI is automatically generated from the models, has all CRUD actions an
 {loopback} is an other mature framework with a lot of features built-in, including authentication with token and connectors to any kind of database.
 
 The killer feature is the **API explorer** feature that let developers check all API end-points in an intuitive way, with the ability to check any user's token.
-It's definitevely a good choice if you have to build an API.
+It's definitively a good choice if you have to build an API.
 `
 
 const mobile = `
-JavaScript is so ubiquitous that you can build native mobile applications using technologies web developers already know (HTML. JavaScript, CSS).
+JavaScript is so ubiquitous that you can build native mobile applications using technologies web developers already know (HTML, JavaScript, CSS).
 
 #### {react-native}
 
 With React Native, from the same code base, you can build iOS and Android real **native** mobile applications, using concepts familiar to React developers. To know more about building applications for both iOS and Android, read [this tutorial](http://makeitopen.com/).
 
 Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient than a native solution.
-"Write Once Run Everywhere"... this is a developer's dream came true!
+"Write Once Run Everywhere"... This is a developer's dream came true!
 
 #### {ionic}
 
-{ionic} was a pionner with the concept of "hybrid" applications.
+{ionic} was a pioneer with the concept of "hybrid" applications.
 Under the hood, it's based on Cordova to access the mobile device features. It's very mature with a large eco-system.
 
 #### {nativescript}
@@ -209,7 +209,7 @@ Nevertheless it can play well with webpack even if developers tend to use npm sc
 
 {browserify}, because of its simplicity is usually loved by node.js developers.
 
-Basically it takes several node.js packages as an input and generates one single "build" file for the browser as an output. But it seems that a more opionated tool like {webpack} is a a better fit to web application workflows.
+Basically it takes several node.js packages as an input and generates one single "build" file for the browser as an output. But it seems that a more opinionated tool like {webpack} is a a better fit to web application workflows.
 
 2 contenders to follow in 2017, that emphasize on performance and simplicity:
   * {rollup}
@@ -272,7 +272,7 @@ It has a lot of features including an internationalization plugin.
 
 #### {gatsby}
 
-The newcomer {gatsby} is a very interesting solution, it stands out from its condenders because it uses React ecosystem to generate static html files. The fact that you can combine React components, Markdown files and server-side rendering makes it very powerful.
+The newcomer {gatsby} is a very interesting solution, it stands out from its contenders because it uses React ecosystem to generate static html files. The fact that you can combine React components, Markdown files and server-side rendering makes it very powerful.
 `
 
 export default {
