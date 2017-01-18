@@ -285,7 +285,7 @@ It has a lot of features including an internationalization plugin.
 
 #### {gatsby}
 
-The newcomer {gatsby} is a very interesting solution, it stands out from its condenders because it uses React eco system to generate static html files. The fact that you can combine React components, mardown files and server-side rendering makes it very powerful.
+The newcomer {gatsby} is a very interesting solution, it stands out from its condenders because it uses React ecosystem to generate static html files. The fact that you can combine React components, Markdown files and server-side rendering makes it very powerful.
 `
 
 export default {
