@@ -118,7 +118,7 @@ It's definitively a good choice if you have to build an API.
 `
 
 const mobile = `
-JavaScript is so ubiquitous that you can build native mobile applications using technologies web developers already know (HTML,f JavaScript, CSS).
+JavaScript is so ubiquitous that you can build native mobile applications using technologies web developers already know (HTML, JavaScript, CSS).
 
 #### {react-native}
 
