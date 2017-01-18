@@ -230,8 +230,8 @@ Basically it takes several node.js packages as an input and generates one single
 `
 
 const reacttemplate = `
-React is a great UI library but using React and the modern web development workflow tools require a lot of condiguration.
-So how to start creating a real-world application ?
+React is a great UI library but using React and the modern web development workflow tools require a lot of configuration.
+So how to start creating a real-world application?
 
 It's the answer provided by the React "boilerplates" and other "starter kits"...
 
