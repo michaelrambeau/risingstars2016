@@ -1,21 +1,9 @@
-// ### Learning the fundamentals 📚
-//
-// The project number 2 in 2016 is a series of book by Kyle Simpson: {you-dont-know-js}.
-//
-// It's very thorough, a must-read if you want to know everything about prototype, generators, functional concepts etc...
-//
-// Its popularity tells a lot about JavaScript popularity in 2016.
-//
-// ### How to be awesome 😎
-//
-// The project number 3 is also about learning and documentation: The {awesome} list concept, created by Sindre Sorhus.
-
 const all = `
 ### Overview
 
 By checking the 10 hottest projects of the year, you can get a good overview of what was the web development landscape in 2016, since you will find:
 
-* 2 UI frameworks: {vuejs} and {react}
+* 2 UI frameworks: {vuejs} and {react} plus one React "starter" project {create-react-app}
 * The leading solution to build desktop applications: {electron}
 * A mobile framework: {react-native}
 * The most famous CSS toolkit: {bootstrap}
@@ -23,7 +11,6 @@ By checking the 10 hottest projects of the year, you can get a good overview of 
 * A powerful and flexible chart library: {d3}
 * An IDE: {visual-studio-code} (developers love their every day tools!)
 * JavaScript server-side with {nodejs} itself
-* The main tool used to build front-end applications: {webpack}
 
 It tells a lot about JavaScript ubiquity and versatility in 2016.
 
@@ -235,12 +222,6 @@ So how to start creating a real-world application?
 
 It's the answer provided by the React "boilerplates" and other "starter kits"...
 
-#### {react-boilerplate}
-
-The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology.
-
-It let developers create what is called *Progressive Web Applications* (or *PWA*): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua.
-
 #### {create-react-app}
 
 Facebook addressed the need by providing a lighter approach called {create-react-app} that is a very convenient to start a new React project.
@@ -248,6 +229,12 @@ Facebook addressed the need by providing a lighter approach called {create-react
 [Dan Abramov](https://github.com/gaearon) (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features. For example there is no fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
 
 The main difference with its contenders is that if you use {create-react-app}, it becomes a dependency of your project, all the magic is hidden and what you see is only **your** application code. You can upgrade the dependency at any time, it's not just a starting point.
+
+#### {react-boilerplate}
+
+The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology.
+
+It let developers create what is called *Progressive Web Applications* (or *PWA*): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua.
 
 #### {nextjs}
 

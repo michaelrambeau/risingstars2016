@@ -8,7 +8,7 @@ const styles = {
       top: 0,
       left: 0,
       bottom: 32,
-      right: 64 // needed because of projects number one with a long title
+      right: 80 // needed because of projects number one with a long title
     }
   },
   axis: {
