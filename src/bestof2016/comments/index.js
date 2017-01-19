@@ -244,7 +244,7 @@ It let developers create what is called *Progressive Web Applications* (or *PWA*
 
 const vdom = `
 {react} is so popular that it inspired several other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
-* {inferno} was the most popular project in this category, it claims to be the fatest alternative to React
+* {inferno} was the most popular project in this category, it claims to be the fastest alternative to React
 * {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a *compat* module to include easily existing React modules...
 * {riotjs} strives for performance and simplicity but takes a totally different approach, it does not uses any JSX-like language but uses html templates instead.
 `
