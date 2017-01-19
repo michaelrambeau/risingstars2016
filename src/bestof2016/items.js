@@ -19,7 +19,7 @@ const items = [
   {
     title: 'React Boilerplates',
     tag: 'react-template',
-    count: 10
+    count: 5
   },
   {
     title: 'Mobile',
