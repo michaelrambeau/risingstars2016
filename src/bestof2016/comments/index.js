@@ -3,14 +3,14 @@ const all = `
 
 By checking the 10 hottest projects of the year, you can get a good overview of what was the web development landscape in 2016, since you will find:
 
-* 2 UI frameworks: {vuejs} and {react} plus one React "starter" project {create-react-app}
+* 3 UI frameworks: {vuejs}, {react} and {angular-2}
+* A new node.js package manager: {yarn}
 * The leading solution to build desktop applications: {electron}
+* A solution to quicky start a new React project {create-react-app}
 * A mobile framework: {react-native}
 * The most famous CSS toolkit: {bootstrap}
 * A state management library based on functional concepts: {redux}
 * A powerful and flexible chart library: {d3}
-* An IDE: {visual-studio-code} (developers love their every day tools!)
-* JavaScript server-side with {nodejs} itself
 
 It tells a lot about JavaScript ubiquity and versatility in 2016.
 
@@ -86,6 +86,10 @@ Its philosophy (a minimalistic core that you can extend using middleware package
 #### {feathers}
 
 {feathers} is a very flexible solution to create a "service oriented" architecture, it's a good fit to create node.js microservices.
+
+#### {nodal}
+
+{nodal} framework targets stateless and distributed services connected to PostgreSQL databases.
 
 #### {keystone}
 

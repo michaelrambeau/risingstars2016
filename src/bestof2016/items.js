@@ -3,7 +3,7 @@ const items = [
   {
     title: 'Most Popular Projects in 2016',
     tag: 'all',
-    excluded: ['awesome', 'you-dont-know-js', 'airbnb-style-guide'],
+    excluded: ['awesome', 'you-dont-know-js', 'airbnb-style-guide', 'front-end-job-interview-questions'],
     count: 10
   },
   {
@@ -43,7 +43,7 @@ const items = [
   {
     title: 'IDE',
     tag: 'ide',
-    count: 3
+    count: 5
   },
   {
     title: 'Static Site Generators',
