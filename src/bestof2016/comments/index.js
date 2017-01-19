@@ -123,7 +123,7 @@ Under the hood, it's based on Cordova to access the mobile device features. It's
 
 {nativescript} aims for the same goal as {react-native} (build real mobile applications using web technologies). It comes in 2 flavors, NativeScript Core and NativeScript + Angular 2
 
-#### Looking forward
+#### Looking forward...
 
 A project to follow closely in 2017: [Weex](https://weex-project.io/), *a framework for building Mobile cross-platform UI* built on top of {vuejs}.
 `
@@ -211,9 +211,11 @@ Nevertheless it can play well with webpack even if developers tend to use npm sc
 
 Basically it takes several node.js packages as an input and generates one single "build" file for the browser as an output. But it seems that a more opinionated tool like {webpack} is a a better fit to web application workflows.
 
-2 contenders to follow in 2017, that emphasize on performance and simplicity:
-  * {rollup}
-  * {fusejs}
+#### Looking forward...
+
+A module bundler to follow in 2017, that emphasizes on performance: {rollup}.
+
+It uses ES6 modules with a feature called *Tree shaking* to create bundles that include only functions you use in your code, instead of shipping the full library.
 `
 
 const reacttemplate = `
