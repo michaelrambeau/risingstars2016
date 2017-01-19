@@ -45,7 +45,7 @@ We have already mentioned {vuejs} (number 1 overall), let's see the other conten
 
 {react} is so popular that it inspired a lot of other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
 
-{inferno} was the most popular project in this category, it claims to be the faster alternative to React
+{inferno} was the most popular project in this category, it claims to be the fastest alternative to React.
 
 Following closely Inferno in our rankings, {preact} is a nice alternative to React too.
 It's eco-system is quite mature, for example there is a boilerplate with offline capabilities, a router, a *compat* module so that you can use any existing React library inside your Preact project.
@@ -241,14 +241,6 @@ It let developers create what is called *Progressive Web Applications* (or *PWA*
 {nextjs}, created by the busy folks from [Zeit](https://zeit.co/), has a server-side rendering feature that can be used to create *universal* applications (or *isomorphic* applications, as we used to say in 2015), that is to say applications that run more or less with the same code client AND server-side.
 
 `
-
-const vdom = `
-{react} is so popular that it inspired several other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
-* {inferno} was the most popular project in this category, it claims to be the fastest alternative to React
-* {preact} is a nice alternative too and seems to be quite mature, with an eco-system that includes a boilerplate with offline capabilities, a router, a *compat* module to include easily existing React modules...
-* {riotjs} strives for performance and simplicity but takes a totally different approach, it does not uses any JSX-like language but uses html templates instead.
-`
-
 const ssg = `
 Static site generators (or "SSG") are tools that generate a bunch of .html, .css and JavaScript files that you can deploy on any simple web server (Apache or NGNX) without the fuss or a setting up a database or any web framework.
 As {gatsby} site says:
@@ -285,6 +277,5 @@ export default {
   compiler,
   build,
   testframework,
-  vdom,
   ssg
 }
