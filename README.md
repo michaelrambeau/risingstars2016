@@ -4,11 +4,28 @@
 
 A complete overview of the JavaScript landscape in 2016: trends about front-end and node.js frameworks, tooling, IDE, Static site generators...
 
-This is a React application created from [Create React App](https://github.com/facebookincubator/create-react-app).
+Mentioned in [JavaScript Weekly](http://javascriptweekly.com/issues/318) newsletter
 
-I added a server-side rendering script to generate a static html page, without shipping React and the library used to generate the SVG charts.
+> Some interesting analysis of the JavaScript ecosystem based on GitHub star count growth in the past year for areas like frameworks, build tools, and testing frameworks.
 
-Hosted on Github pages to able to use the [js.org](https://js.org/) domain.
+[![image](https://cloud.githubusercontent.com/assets/5546996/22129924/4f5876ce-deec-11e6-810a-a0b012fe465c.png)](http://javascriptweekly.com/issues/318)
+
+## Technical overview
+
+This is a React application created using:
+
+* [Create React App](https://github.com/facebookincubator/create-react-app)
+* [Victory](http://formidable.com/open-source/victory/): a library to create SVG charts with React
+
+I added a server-side rendering script to generate a static html page, without shipping JavaScript code to the final page.
+
+It's hosted on Github Pages using the [js.org](https://js.org/) domain.
+
+Files system:
+
+* `src`: the application source code (React compoments)
+* `build`: default production build created by `npm run build`
+* `docs`: custom production build, created by the SSR script, the final assets served by Github Pages
 
 ## Commands
 
