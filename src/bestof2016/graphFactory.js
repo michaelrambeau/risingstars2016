@@ -1,18 +1,20 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
+
 import Graph from './Graph'
 // const Graph = () => <div>Graph</div>
 import Markdown from './Markdown'
-import comments from './comments'
+import comments from '../../content/categories'
 import ProjectTable from './ProjectTable'
 
-function graphFactory ({ projects, entities }) {
+function graphFactory ({ projects, entities, locale }) {
   return {
     createGraph ({ tag, number, title, Comment, excluded = [], count = 10, children }) {
       const graphProjects = projects[tag]
         .filter(project => !excluded.includes(project.slug))
         .slice(0, count)
       const key = tag.replace(/-/, '')
-      const comment = comments[key] || '(Under construction)'
+      const comment = comments[key][locale].body || 'No content!'
       const height = Math.max(count * 15 + 100, 150)
       return (
         <section className="section">
@@ -23,7 +25,8 @@ function graphFactory ({ projects, entities }) {
                 <div className="tag-card-header">
                   <div className="tag-card-header-text">
                     <span className="tag-card-number">#{number}</span>
-                    <span>{title}</span>
+                    <FormattedMessage id={tag} />
+                    {false && <span>{title}</span>}
                   </div>
                 </div>
                 <div className="tag-card-body">
