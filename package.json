@@ -1,8 +1,8 @@
 {
-  "name": "bestof2016-react",
+  "name": "risingstars2016",
   "homepage": "https://risingstars2016.js.org",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "dependencies": {
     "babel-cli": "^6.18.0",
     "flat": "^2.0.1",

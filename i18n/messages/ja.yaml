@@ -1,18 +1,23 @@
-header:
-  title: "(Japanese ?) 2016 JavaScript Rising Stars"
+# Meta data
+page:
+  title: "(ja) 2016 JavaScript Rising Stars"
+  description: "(ja) A complete overview of the JavaScript landscape in 2016: trends about front-end and node.js frameworks, tooling, IDE, Static site generators..."
 
+# Page content
+header:
+  title: "(ja) 2016 JavaScript Rising Stars"
 introduction:
-  table_of_contents: "(Japanese ?) Table of Contents"
-  explanation: "(Japanese ?) The following graphs compare the number of stars added on Github over the last 12 months."
+  table_of_contents: "(ja) Table of Contents"
+  explanation: "(ja) The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform."
 
 categories:
-  all: "(Japanese ?) Most Popular Projects in 2016"
-  framework: '(Japanese ?) Front-end Frameworks'
-  nodejsframework: '(Japanese ?) Node.js Frameworks'
-  reacttemplate: '(Japanese ?) React Boilerplates'
-  mobile: '(Japanese ?) Mobile'
-  compiler: '(Japanese ?) Compilers'
-  build: '(Japanese ?) Build Tools'
-  testframework: '(Japanese ?) Testing Frameworks'
-  ide: '(Japanese ?) IDE'
-  ssg: '(Japanese ?) Static Site Generators'
+  all: "(ja) Most Popular Projects in 2016"
+  framework: '(ja) Front-end Frameworks'
+  nodejsframework: '(ja) Node.js Frameworks'
+  reacttemplate: '(ja) React Boilerplates'
+  mobile: '(ja) Mobile'
+  compiler: '(ja) Compilers'
+  build: '(ja) Build Tools'
+  testframework: '(ja) Testing Frameworks'
+  ide: '(ja) IDE'
+  ssg: '(ja) Static Site Generators'

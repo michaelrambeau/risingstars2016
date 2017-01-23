@@ -12,10 +12,11 @@ Mentioned in [JavaScript Weekly](http://javascriptweekly.com/issues/318) newslet
 
 ## Technical overview
 
-This is a React application created using:
+This is an application created using:
 
-* [Create React App](https://github.com/facebookincubator/create-react-app)
+* [Gatsby](https://github.com/gatsbyjs/gatsby)
 * [Victory](http://formidable.com/open-source/victory/): a library to create SVG charts with React
+* [React Intl](https://github.com/yahoo/react-intl)
 
 I added a server-side rendering script to generate a static html page, without shipping JavaScript code to the final page.
 
@@ -23,8 +24,8 @@ It's hosted on Github Pages using the [js.org](https://js.org/) domain.
 
 Files system:
 
-* `src`: the application source code (React compoments)
-* `build`: default production build created by `npm run build`
+* `src`: the application source code (React components)
+* `public`: default production build created by `npm run build`
 * `docs`: custom production build, created by the SSR script, the final assets served by Github Pages
 
 ## Commands
@@ -35,7 +36,7 @@ Start the development server:
 npm start
 ```
 
-Create the build (`/build` folder)
+Create the build (`/public` folder)
 
 ```
 npm run build
@@ -45,11 +46,4 @@ Server-side rendering (generate the `/docs` folder by a script from my own)
 
 ```
 npm run ssr
-```
-
-Image compression, assuming that the image was created inside a `design` folder
-
-
-```
-npm run img
 ```
