@@ -1,0 +1,18 @@
+header:
+  title: "(Japanese ?) 2016 JavaScript Rising Stars"
+
+introduction:
+  table_of_contents: "(Japanese ?) Table of Contents"
+  explanation: "(Japanese ?) The following graphs compare the number of stars added on Github over the last 12 months."
+
+categories:
+  all: "(Japanese ?) Most Popular Projects in 2016"
+  framework: '(Japanese ?) Front-end Frameworks'
+  nodejsframework: '(Japanese ?) Node.js Frameworks'
+  reacttemplate: '(Japanese ?) React Boilerplates'
+  mobile: '(Japanese ?) Mobile'
+  compiler: '(Japanese ?) Compilers'
+  build: '(Japanese ?) Build Tools'
+  testframework: '(Japanese ?) Testing Frameworks'
+  ide: '(Japanese ?) IDE'
+  ssg: '(Japanese ?) Static Site Generators'

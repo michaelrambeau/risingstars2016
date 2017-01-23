@@ -1,16 +1,21 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import Markdown from './Markdown'
-import items from './items'
-import intro from './comments/intro'
+import items from '../categories'
 import Social from './Social'
+import md from '../../i18n/introduction'
 
-const Introduction = ({ entities, url }) => (
+const Introduction = ({ entities, url, intl }) => (
   <div className="container container-section small-container">
     <div className="small-card markdown-body card-introduction">
-      <Markdown source={intro} entities={entities} />
+      <Markdown source={md[intl.locale].body} entities={entities} />
       <hr />
-      <h3>Table of Contents</h3>
+      <h3>
+        <FormattedMessage
+          id="introduction.table_of_contents"
+        />
+      </h3>
       <ol>
         {items.map((item, i) => (
           <li key={item.tag}>
@@ -30,8 +35,14 @@ const Introduction = ({ entities, url }) => (
       <hr />
       <small>
         <p style={{marginTop: '1rem'}}>
-        The following graphs compare the number of stars <b>added</b> on Github over the last 12 months.<br />
-        We analyzed projects coming from <a href="http://bestof.js.org/">bestof.js.org</a>, a curated list of the best projects related to the web platform.
+          <FormattedMessage
+            id="introduction.explanation"
+            defaultMessage={`
+              We analyzed projects coming from {link},
+            a curated list of the best projects related to the web platform.
+            `}
+            values={{ link: <a href="http://bestof.js.org/hof/">bestof.js.org</a> }}
+          />
         </p>
       </small>
     </div>

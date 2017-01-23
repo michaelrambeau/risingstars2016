@@ -2,11 +2,11 @@ import React from 'react'
 import { IntlProvider, addLocaleData } from 'react-intl'
 import __intlEN from 'react-intl/locale-data/en'
 import __intlJA from 'react-intl/locale-data/ja'
-import App from './App'
+import App from '../App'
 import getMessages from './getMessages'
-import projects from '../projects.json'
-import getInitialState from '../src/getInitialState'
-import mapStateToProps from '../src/bestof2016/mapStateToProps'
+import projects from './projects.json'
+import getInitialState from './getInitialState'
+import mapStateToProps from './mapStateToProps'
 
 addLocaleData(__intlEN)
 addLocaleData(__intlJA)

@@ -1,15 +1,3 @@
-
-// If I had to pick 10 projects or concepts that sum up 2016, I'd choose:
-//
-// * {vuejs}
-// * {react-native}
-// * {create-react-app}
-// * {yarn}
-// * {electron}
-// * {gatsby}
-// * The Progressive Web App concept
-
-const conclusion = `
 Despite the JavaScript fatigue™ and the dramas (remember the ["leftpad gate"](http://developer.telerik.com/featured/left-pad-indicative-fragile-javascript-ecosystem/)), 2016 was a great year for the community, with the rise of projects like {vuejs} and {react-native}, and new projects like {yarn} or {create-react-app}.
 
 We have been talking about projects that got traction on Github in 2016 but what really matters is developer's satisfaction.
@@ -35,5 +23,3 @@ Here are my 10 picks of the year, the projects and the ideas I liked in 2016 and
 ---
 
 Thank you for your attention, feel free to share this article or to reach us on [Github](https://github.com/michaelrambeau/risingstars2016)!
-`
-export default conclusion

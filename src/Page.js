@@ -1,11 +1,12 @@
 import React from 'react'
-import Header from '../src/Header'
-import Footer from '../src/Footer'
-import Introduction from '../src/bestof2016/Introduction'
-import Conclusion from '../src/bestof2016/Conclusion'
 import { FormattedMessage } from 'react-intl'
-import graphFactory from '../src/bestof2016/graphFactory'
-import items from '../src/bestof2016/items'
+
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Introduction from './components/Introduction'
+import Conclusion from './components/Conclusion'
+import graphFactory from './components/graphFactory'
+import categories from './categories'
 
 class Page extends React.Component {
   render () {
@@ -29,7 +30,7 @@ class Page extends React.Component {
           url={url}
           intl={intl}
         />
-        {items.map((item, i) => (
+        {categories.map((item, i) => (
           <Graph
             key={item.tag}
             tag={item.tag}
@@ -42,6 +43,7 @@ class Page extends React.Component {
         <Conclusion
           entities={entities}
           url={url}
+          intl={intl}
         />
         <Footer />
       </div>

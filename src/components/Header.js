@@ -8,7 +8,7 @@ const Header = () => (
       <a id="logo" href="http://bestof.js.org">bestof.js.org</a>
       <div className="language-menu" style={{ marginLeft: '2rem' }}>
         <Link to={prefixLink('/en/')}>English</Link> |
-        <Link to={prefixLink('/jp/')}>日本語</Link>
+        <Link to={prefixLink('/ja/')}>日本語</Link>
       </div>
     </div>
   </div>

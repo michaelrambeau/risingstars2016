@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl'
 import Graph from './Graph'
 // const Graph = () => <div>Graph</div>
 import Markdown from './Markdown'
-import comments from '../../content/categories'
+import comments from '../../i18n/categories'
 import ProjectTable from './ProjectTable'
 
 function graphFactory ({ projects, entities, locale }) {
@@ -25,7 +25,7 @@ function graphFactory ({ projects, entities, locale }) {
                 <div className="tag-card-header">
                   <div className="tag-card-header-text">
                     <span className="tag-card-number">#{number}</span>
-                    <FormattedMessage id={tag} />
+                    <FormattedMessage id={`categories.${key}`} />
                     {false && <span>{title}</span>}
                   </div>
                 </div>

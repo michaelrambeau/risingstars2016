@@ -3,9 +3,6 @@
   "homepage": "https://risingstars2016.js.org",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.4"
-  },
   "dependencies": {
     "babel-cli": "^6.18.0",
     "flat": "^2.0.1",
