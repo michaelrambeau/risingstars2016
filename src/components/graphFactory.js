@@ -9,7 +9,7 @@ import ProjectTable from './ProjectTable'
 
 function graphFactory ({ projects, entities, locale }) {
   return {
-    createGraph ({ tag, number, title, Comment, excluded = [], count = 10, children }) {
+    createGraph ({ tag, number, excluded = [], count = 10, children }) {
       const graphProjects = projects[tag]
         .filter(project => !excluded.includes(project.slug))
         .slice(0, count)
@@ -26,7 +26,6 @@ function graphFactory ({ projects, entities, locale }) {
                   <div className="tag-card-header-text">
                     <span className="tag-card-number">#{number}</span>
                     <FormattedMessage id={`categories.${key}`} />
-                    {false && <span>{title}</span>}
                   </div>
                 </div>
                 <div className="tag-card-body">

@@ -17,13 +17,16 @@ const Introduction = ({ entities, url, intl }) => (
         />
       </h3>
       <ol>
-        {items.map((item, i) => (
-          <li key={item.tag}>
-            <a href={`#${item.tag}`}>
-            {`${item.title}`}
-            </a>
-          </li>
-        ))}
+        {items.map((item, i) => {
+          const key = item.tag.replace(/-/, '')
+          return (
+            <li key={item.tag}>
+              <a href={`#${item.tag}`}>
+                <FormattedMessage id={`categories.${key}`} />
+              </a>
+            </li>
+          )
+        })}
       </ol>
       <hr />
       <div>
