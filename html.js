@@ -40,7 +40,7 @@ module.exports = React.createClass({
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
-          {false && <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
+          {true && <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
         </body>
       </html>
     )

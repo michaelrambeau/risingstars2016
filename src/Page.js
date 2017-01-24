@@ -17,7 +17,7 @@ class Page extends React.Component {
     const Graph = (props) => factory.createGraph(props)
     return (
       <div>
-        <Header />
+        <Header language={intl.locale} />
         <div id="picture-block">
           <div className="container">
             <h1>
