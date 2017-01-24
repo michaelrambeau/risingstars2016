@@ -1,11 +1,10 @@
-Static site generators (or "SSG") are tools that generate a bunch of .html, .css and JavaScript files that you can deploy on any simple web server (Apache or NGNX) without the fuss or a setting up a database or any web framework.
-As {gatsby} web site says:
+静的サイトジェネレータ（"Static Site Generators" 略して SSG） は .html、.css、JavaScript といった　Web　サイトを構成するファイル一式を生成してくれるツールです。生成されたファイルは、Apache　や　Nginx　のシンプルな　Web　サーバーへ悩み無用でデプロイできます。データベースや　Web　アプリケーションフレームワークのセットアップも不要です。例えば、SGG　のひとつである {gatsby} は自らをこう表現しています:
 
-> Build sites like it's 1995
+> 1995年ころのようにサイトを構築する。
 
-Static web site are fast, robust and easy to maintain.
+静的なWebサイトは高速、堅牢で、メンテナンスも容易です。
 
-SSG are very popular because there are a lot of very good solutions to host static web site for free:
+SSG　が人気なのは、静的なWebサイトを無料でホスティングできるサービスが多いことも要因でしょう。
 
 * [Github pages](https://pages.github.com/)
 * [Gitlab pages](http://pages.gitlab.io/)
@@ -15,9 +14,8 @@ SSG are very popular because there are a lot of very good solutions to host stat
 
 #### {hexo}
 
-In 2016, the most popular SSG built with node.js was {hexo}. It's a thorough SSG, close to CMS systems like Wordpress, that can be used to build a blog for example.
-It has a lot of features including an internationalization plugin.
+2016年でもっとも人気のあった　SSG　が　Node.js　でビルドする {hexo} です。とてもよくできた　SSG　で、Wordpreess　のような　CMS　に近く、ブログの構築に利用できます。i18n　 プラグインを含め、多くのフィーチャを提供しています。
 
 #### {gatsby}
 
-The newcomer {gatsby} is a very interesting solution, it stands out from its contenders because it uses React ecosystem to generate static html files. The fact that you can combine React components, Markdown files and server-side rendering makes it very powerful.
+ニューカマーの {gatsby} のソリューションは非常に興味深いものです。静的　html　ファイルを生成するのに　React　のエコシステムを利用しており、競合と一線を画しています。React　コンポーネントを取り込んでいることからもわかるように, Markdown　やサーバーサイドレンダリングをサポートしており、パワフルな仕上がりになっています。
