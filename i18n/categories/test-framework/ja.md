@@ -2,7 +2,7 @@
 
 #### {ava}
 
-{ava} は多産で知られる [Sindre Sorhus](https://github.com/sindresorhus) がクリエーターのテスティングフレームワークです。パフォーマンス（並列テスト）とES6 サポートが売りです。AVA のシンタックスは標準的なテスティングフレームワークである {tape} や {node-tap} に近いものになっています.
+{ava} は多産で知られる [Sindre Sorhus](https://github.com/sindresorhus) がクリエーターのテスティングフレームワークです。パフォーマンス（並列テスト）とES6 サポートが売りです。AVA のシンタックスは標準的なテスティングフレームワークである {tape} や {node-tap} に近いものになっています。
 
 #### {jest}
 
