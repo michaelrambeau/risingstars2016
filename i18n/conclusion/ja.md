@@ -21,4 +21,4 @@ JavaScript fatigue™（"JS疲れ"）がささやかれ、いくつかの悲劇�
 
 ---
 
-最後までお読みいただきありがとうございます。シェアは自由です。フィードバックがございましたらこちらからお願いします: [Github](https://github.com/michaelrambeau/risingstars2016)!
+最後までお読みいただきありがとうございます。シェアは自由です。フィードバックがございましたらこちらからお願いします: [Github](https://github.com/michaelrambeau/risingstars2016)
