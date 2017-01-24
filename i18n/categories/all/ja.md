@@ -5,7 +5,7 @@
 * UIフレームワーク御三家: {vuejs}, {react}, {angular-2}
 * Node.jsの新パッケージマネージャー: {yarn}
 * デスクトップアプリ作るなら: {electron}
-* Reactプロジェクトを爆速スキャッフォルド {create-react-app}
+* Reactプロジェクトを爆速スキャッフォルド: {create-react-app}
 * モバイル向けアプリのフレームワークといえば: {react-native}
 * もはや知らなきゃもぐりなCSSツールキット: {bootstrap}
 * 関数型のコンセプトをベースにした状態管理ライブラリ: {redux}
