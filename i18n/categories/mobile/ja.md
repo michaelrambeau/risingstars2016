@@ -1,21 +1,21 @@
-JavaScript is so ubiquitous that you can build native mobile applications using technologies web developers already know (HTML, JavaScript, CSS).
+JavaScriptがここまで普及した結果、Webデヴェロッパがすでに習得している知識（HTML,JavaScript,CSS）でモバイル向けのネイティヴアプリケーションを開発できるようになりました。
 
 #### {react-native}
 
-With React Native, from the same code base, you can build iOS and Android real **native** mobile applications, using concepts familiar to React developers. To know more about building applications for both iOS and Android, read [this tutorial](http://makeitopen.com/).
+React NativeならWebアプリケーションと同じコードベースから、真に**ネイティヴ**なiOSとAndroidアプリケーションを開発できます。そのコンセプトは、Reactを知っているデヴェロッパであればなじみ深いものです。開発の詳細を知りたい方は、この[チュートリアル](http://makeitopen.com/)が参考になります。
 
-Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient than a native solution.
-"Write Once Run Everywhere"... This is a developer's dream came true!
+その他のソリューションとしては、Cordobaをベースにしたものがあり、スクリーンのレンダリングにWebviewを利用しています。ただ、ネイティブアプリケーションほど効率的な実装は難しいようです。
+
+"Write Once Run Everywhere"（１度書けばどこでも動く）、というデヴェロッパの夢がついに現実になりました！
 
 #### {ionic}
 
-{ionic} was a pioneer with the concept of "hybrid" applications.
-Under the hood, it's based on Cordova to access the mobile device features. It's very mature with a large eco-system.
+{ionic} は、「ハイブリッド」アプリケーションというコンセプトの草分け的存在のひとつです。裏側では、モバイルデヴァイスのフィーチャへのアクセスにCordovaを利用しています。広いエコシステムを背景に成熟しています。
 
 #### {nativescript}
 
-{nativescript} aims for the same goal as {react-native} (build real mobile applications using web technologies). It comes in 2 flavors, NativeScript Core and NativeScript + Angular 2
+{nativescript} は {react-native} と同じゴール（Webのテクノロジでモバイルアプリケーションを実装すること）を目指しています。実装のアプローチとしては、NativeScript CoreとNativeScript + Angular2の２種類があります。
 
-#### Looking forward...
+#### 今年の注目は...
 
-A project to follow closely in 2017: [Weex](https://weex-project.io/), *a framework for building Mobile cross-platform UI* built on top of {vuejs}.
+2017年、この分野の注目プロジェクトとして、{vuejs} の上に実装された *モバイル向けクロスプラットフォームUIフレームワーク* [Weex](https://weex-project.io/) を挙げておきます。
