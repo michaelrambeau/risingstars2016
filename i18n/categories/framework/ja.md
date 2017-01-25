@@ -10,7 +10,7 @@
 
 カテゴリ・総合共に1位の {vuejs} にはすでに触れたので、他の競合フレームワークを見て行きましょう。
 
-#### React とその競合フレームワーク / React and its contenders
+#### React とその競合フレームワーク
 
 {react} はカテゴリ2位で、フロントエンド開発者は React とその豊富なエコシステムを無視できないほどです。
 
@@ -22,7 +22,7 @@
 Inferno と僅差の {preact} もすばらしい React 代替フレームワークです。
 Preact のエコシステムはかなり充実していて、例えばオフラインでも動作するひな型 *preact-boilerplate* 、ルーター、 *preact-compat* (React のモジュールを使用にするモジュール)などがあります。
 
-#### Angular 1/2 / Angular 1 and 2
+#### Angular 1/2
 
 Angular 1, 2 のリポジトリは 2つに分割されました。コンセプトはそのままながら、Angular 2 がフルスクラッチで書き直されたためです。
 
