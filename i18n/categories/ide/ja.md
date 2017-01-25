@@ -1,4 +1,4 @@
-統合開発環境（*Integrated Development Environment*、略してIDE）について触れておきましょう。Webテクノロジで実装されたIDEで最も人気の高いオープンソースプロジェクトのなかの２つを紹介します。
+統合開発環境（*Integrated Development Environment*、略してIDE）について触れておきましょう。Webテクノロジで実装されたIDEのなかで、最も人気の高いオープンソースプロジェクトを２つ紹介します。
 
 #### {visual-studio-code}
 
