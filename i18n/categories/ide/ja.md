@@ -10,4 +10,4 @@
 
 #### {atom}
 
-Github謹製の {atom} は、他の多くのデスクトップアプリケーション同様に {electron} で実装されています（例えば、Slackのデスクトップクライアントも {electron})。{visual-studio-code} にそれほど劣後しているわけではありません。Atomで興味深いのは、メイン言語がCoffeeScriptなことでしょうか。
+Github謹製の {atom} は、他の多くのデスクトップアプリケーション同様に {electron} で実装されています（例えば、Slackのデスクトップクライアントも {electron})。チャートをみてもわかるように、{visual-studio-code} にそれほど劣後しているわけではありませんね。あと、Atomで興味深いのは、メイン言語がCoffeeScriptなことでしょうか。
