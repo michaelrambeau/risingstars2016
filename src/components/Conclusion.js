@@ -11,16 +11,15 @@ const Conclusion = ({ entities, url, intl }) => (
       <div className="small-card-header">
         <div className="tag-card-header-text">
           <span className="tag-card-number">#</span>
-          <span>Conclusion</span>
+          <FormattedMessage id='conclusion' />
         </div>
       </div>
       <div className="markdown-body">
         <Markdown source={md[intl.locale].body} entities={entities} />
         <div className="conclusion-share-buttons">
-          {false && <p style={{ textAlign: 'center' }}>Spread the word!</p>}
           <Social
             url={url}
-            text={'Check the JavaScript landscape in 2016'}
+            text={intl.formatMessage({ id: 'social.text' })}
           />
         </div>
       </div>

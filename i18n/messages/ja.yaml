@@ -9,6 +9,7 @@ header:
 introduction:
   table_of_contents: "目次"
   explanation: "本サイトに掲載したチャートは、2016年の12か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webテクノロジに関連するベストプロジェクトをまとめています。"
+conclusion: "(ja) Conclusion"
 
 categories:
   all: "2016年人気プロジェクトランキング"
@@ -21,3 +22,6 @@ categories:
   testframework: 'テスティングフレームワーク'
   ide: '統合開発環境（IDE）'
   ssg: '静的サイトジェネレータ'
+
+social:
+  text: "(ja) Check the JavaScript landscape in 2016"    

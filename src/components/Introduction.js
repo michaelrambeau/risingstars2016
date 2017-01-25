@@ -32,7 +32,7 @@ const Introduction = ({ entities, url, intl }) => (
       <div>
         <Social
           url={url}
-          text={'Check the JavaScript landscape in 2016'}
+          text={intl.formatMessage({ id: 'social.text' })}
         />
       </div>
       <hr />
