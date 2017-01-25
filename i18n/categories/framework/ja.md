@@ -1,32 +1,35 @@
-This *Front-end Frameworks* category is maybe the one that is responsible for what was called [the JavaScript fatigue](https://medium.freecodecamp.com/javascript-fatigue-fatigue-66ffb619f6ce#.soeh5g56p) in 2016.
-It seemed that every month a new contender made the buzz, pushing the pace of innovation!
+この *フロントエンドフレームワーク* カテゴリは恐らく、2016年に話題になった [JavaScript疲れ(the JavaScript fatigue)](https://medium.freecodecamp.com/javascript-fatigue-fatigue-66ffb619f6ce#.soeh5g56p) の要因の1つです。
+毎月のように新しい競合が現われてはバズり、イノベーションを牽引してきました。
 
-To be exact, 2 kinds of projects are mixed in the category:
+このカテゴリには2種類のプロジェクトが含まれています:
 
-* Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angularjs}, {angular-2}, {ember} or {aurelia} are in this category.
-* Lighter solutions that focus on the UI layer, like {react}, {vuejs}, {inferno}...
+* フルスタックフレームワーク: Webアプリケーションに必要なすべてを含むフレームワーク (ルーティング、データ取得、状態管理など)
+    * 例: {angularjs}, {angular-2}, {ember}, {aurelia}
+* 軽量フレームワーク: フロントエンドの UI にフォーカスしたフレームワーク
+    * 例: {react}, {vuejs}, {inferno}
 
-We have already mentioned {vuejs} (number 1 overall), let's see the other contenders.
+カテゴリ・総合共に1位の {vuejs} にはすでに触れたので、他の競合フレームワークを見て行きましょう。
 
-#### React and its contenders
+#### React とその競合フレームワーク / React and its contenders
 
-{react} is number 2, no front-end developer can ignore React and its rich eco-system.
+{react} はカテゴリ2位で、フロントエンド開発者は React とその豊富なエコシステムを無視できないほどです。
 
-{react} is so popular that it inspired a lot of other libraries that aim to take the best of React, without the fat, in order to improve both performance in the browser and building time.
+{react} はとても人気があり、そのの地位を狙う他のたくさんの競合フレームワークに影響を与えています。
+あるものは React よりも軽量を、またあるものはブラウザ上のパフォーマンス向上、ビルド時間の短縮などを目指しています。
 
-{inferno} was the most popular project in this category, it claims to be the fastest alternative to React.
+{inferno} もこのカテゴリでもとて人気のあるプロジェクトで、最速の React 代替フレームワークをうたっています。
 
-Following closely Inferno in our rankings, {preact} is a nice alternative to React too.
-It's eco-system is quite mature, for example there is a boilerplate with offline capabilities, a router, a *compat* module so that you can use any existing React library inside your Preact project.
+Inferno と僅差の {preact} もすばらしい React 代替フレームワークです。
+Preact のエコシステムはかなり充実していて、例えばオフラインでも動作するひな型 *preact-boilerplate* 、ルーター、 *preact-compat* (React のモジュールを使用にするモジュール)などがあります。
 
-#### Angular 1 and 2
+#### Angular 1/2 / Angular 1 and 2
 
-Angular project has been split into 2 repositories because Angular 2 is a full rewrite of Angular 1, even if some concepts remain the same.
+Angular 1, 2 のリポジトリは 2つに分割されました。コンセプトはそのままながら、Angular 2 がフルスクラッチで書き直されたためです。
 
-{angular-2} is written in TypeScript and takes advantage of ES6 to deliver a modern and thorough framework
+{angular-2} は TypeScript で書かれており、ES6 の恩恵も受けられるモダンなフレームワークです。
 
-{angularjs} project is the branch 1.x, it's still used in many projects and will remain popular for a while.
+{angularjs} は Angular の 1.x 系で、今でも多くのプロジェクトで使用されていて、今後もしばらく人気は続きそうです。
 
-It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
+{ember} も注目に値するフレームワークで、巨大なエコシステムやコミュニティを有しながらもトップ10には入りませんでした。
 
-So it seems that, rather than opting for full frameworks with all features "out of the box", developers in 2016 flavored lighter approaches and prefer to compose their own solution "à la carte".
+このことから2016年の開発者は、出来合いのフルスタックフレームワークを選ぶよりも、軽量フレームワークで自分好みの構成を作り上げる方を好んでいたように見えます。
