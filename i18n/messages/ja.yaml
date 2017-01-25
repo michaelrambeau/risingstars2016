@@ -8,7 +8,7 @@ header:
   title: "2016 JavaScript Rising Stars"
 introduction:
   table_of_contents: "目次"
-  explanation: "本サイトに掲載したチャートは、2016年の１２か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webブラットフォームに関連するベストプロジェクトをまとめています。"
+  explanation: "本サイトに掲載したチャートは、2016年の12か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webテクノロジに関連するベストプロジェクトをまとめています。"
 
 categories:
   all: "2016年人気プロジェクトランキング"
