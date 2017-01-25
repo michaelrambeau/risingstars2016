@@ -1,22 +1,31 @@
-React is a great UI library but using React and the modern web development workflow tools require a lot of configuration.
-So how to start creating a real-world application?
+React はとてもすばらしい UI のライブラリですが、React やその最新のWeb開発ツールはたくさんの構成・設定を必要とします。
+では実際のアプリケーションを作りはじめるにはどうすればいいのでしょうか？
 
-It's the answer provided by the React "boilerplates" and other "starter kits"...
+react-boilerplates とその他のスターターキットがその答えを用意してくれています。
 
 #### {create-react-app}
 
-Facebook addressed the need by providing a lighter approach called {create-react-app} that is a very convenient to start a new React project.
+Facebook は手軽に React のプロジェクトを開始できる {create-react-app} を公開しました。
 
-[Dan Abramov](https://github.com/gaearon) (the creator of Redux, working now for Facebook) did a great job, finding the right balance between simplicity and features. For example there is no fancy styling solution (just plain CSS), no server-side rendering, but everything is well packaged and the developer experience is really good.
+[Dan Abramov](https://github.com/gaearon) (Redux の作者で、現在 Facebook 在籍) はシンプルさと多機能の絶妙なバランスを見出しました。
+奇抜な stylesheet も使わず(普通の CSS のみ)、サーバーサイドの描画もせず、それでいて全体をうまくまとめた上で開発者体験もすばらしいという落しどころを。
 
-The main difference with its contenders is that if you use {create-react-app}, it becomes a dependency of your project, all the magic is hidden and what you see is only **your** application code. You can upgrade the dependency at any time, it's not just a starting point.
+{create-react-app} の他の競合ツールとの主な違いは、これを使ってプロジェクトをはじめれば依存関係や設定をすべて隠蔽してくれることです。
+依存モジュールや設定などの魔術的なものはすべて隠蔽されて、書き足したアプリケーションのコードのみが見える状態になります。
+プロジェクト開始時のみに使うのではなく、いつでも依存関係を最新な状態に更新することもできます。
+(なんと隠蔽されている依存関係をすべて書き出すこともできます)
 
 #### {react-boilerplate}
 
-The well named {react-boilerplate} has everything you need, including {redux} and some nice offline features, taking advantage of the web workers technology.
+{react-boilerplate} には、{redux} や他のオフライン機能のモジュール、Web Worker など、必要になる機能はすべて含まれてます。
 
 It let developers create what is called *Progressive Web Applications* (or *PWA*): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua.
+これを使えば *プログレッシブウェブアプリ* (*PWA*) と呼ばれるアプリケーションを作成できます。
+プログレッシブウェブアプリは Service Worker という技術を使用して、オフラインでも動作するウェブアプリケーションです。
+詳しくは Nicolás Bevacqua. の [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) を参照してくさい。
 
 #### {nextjs}
 
-{nextjs}, created by the busy folks from [Zeit](https://zeit.co/), has a server-side rendering feature that can be used to create *universal* applications (or *isomorphic* applications, as we used to say in 2015), that is to say applications that run more or less with the same code client AND server-side.
+{nextjs} は [Zeit](https://zeit.co/) の多忙な人達によって開発されました。
+サーバーサイドでの描画機能も持つため、サーバーサイドとクライアントサイドでコードをコードを共有できる *ユニバーサル* アプリケーションを作成できます。
+(ユニバーサルアプリケーションは、2015年には Isomorphic と呼ばれていたようです)
