@@ -1,0 +1,27 @@
+#footer {
+  padding: 3rem 0;
+  background-color: #8F3200;
+  background-color: #B94100;
+  color: #fbf3ef;
+  color: #FF9359;
+}
+#footer .container{
+  padding: 0 2rem;
+}
+#footer a {
+  color: #fbf3ef;
+}
+#footer p:first-child {
+  margin-top: 0;
+}
+#footer p:last-child {
+  margin-bottom: 0;
+}
+/*.footer-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-grid img {
+  margin-right: 1rem;
+}*/

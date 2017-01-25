@@ -1,3 +1,15 @@
 siteTitle="2016 JavaScript Rising Stars"
 linkPrefix = "/"
 noProductionJavascript = true
+
+[[translators]]
+name = "Nobuhiro Uchiyama"
+url = "https://www.facebook.com/nobuhiro.uchiyama.5"
+
+[[translators]]
+name = "Yohei Ice"
+url = "https://twitter.com/meltedice"
+
+[[translators]]
+name = "Shigeto Yatani"
+url = "https://twitter.com/vanx2"

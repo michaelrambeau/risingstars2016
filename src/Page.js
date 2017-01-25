@@ -45,7 +45,7 @@ class Page extends React.Component {
           url={url}
           intl={intl}
         />
-        <Footer />
+        <Footer language={intl.locale} />
       </div>
     )
   }
