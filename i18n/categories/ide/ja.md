@@ -1,14 +1,13 @@
-About IDE (*Integrated Development Environment*), it's worth to mention that 2 of the most popular IDEs are open-source projects made with web technologies.
+統合開発環境（*Integrated Development Environment*、略してIDE）について触れておきましょう。Webテクノロジで実装されたIDEのうち、最も人気の高いオープンソースプロジェクトのうち、２つ紹介します。
 
 #### {visual-studio-code}
 
-In our results, Microsoft leads the way with {visual-studio-code}.
+結果をみると、IDEではMicrosoftの {visual-studio-code} がリードしています。 
 
-It provides a nice integration with {typescript} and node.js.
-Some developers mention improvement about development speed thank to the *IntelliSense* feature (a mix of highlighting and autocomplete).
+{visual-studio-code} は {typescript} とNode.jsをうまくインテグレーションしています。*IntelliSense*（ハイライティングと自動補完の機能）が使えれば、開発効率はもっと上がると指摘するデヴェロッパも少なくないようです。
 
-Saying "open source" and "Microsoft" in the same sentence is no more an oxymoron!
+「オープンソース」と「MicroSoft」を同じセンテンスで使うことは、もはや矛盾でもなんでもありません！
 
 #### {atom}
 
-{atom}, pushed by Github and built with {electron} (like several other desktop applications, including the Slack desktop client) is not far behind {visual-studio-code}. An interesting fact about Atom: its main language is CoffeeScript!
+Github謹製の {atom} は、他の多くのデスクトップアプリケーション同様に {electron} で実装されています（例えば、Slackのデスクトップクライアントも {electron})。{visual-studio-code} にそれほど劣後しているわけではありません。Atomで興味深いのは、メイン言語がCoffeeScriptなことでしょうか。
