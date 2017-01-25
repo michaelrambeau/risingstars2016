@@ -1,23 +1,23 @@
 # Meta data
 page:
-  title: "(ja) 2016 JavaScript Rising Stars"
-  description: "(ja) A complete overview of the JavaScript landscape in 2016: trends about front-end and node.js frameworks, tooling, IDE, Static site generators..."
+  title: "2016 JavaScript Rising Stars"
+  description: "2016年版 JavaScript白書: フロントエンド、Node.jsフレームワーク、ツールチェーン、IDE、静的サイトジェネレータなど、2016年のJavaScriptの動向を完全網羅"
 
 # Page content
 header:
-  title: "(ja) 2016 JavaScript Rising Stars"
+  title: "2016 JavaScript Rising Stars"
 introduction:
-  table_of_contents: "(ja) Table of Contents"
-  explanation: "(ja) The following graphs compare the number of stars added on Github over the last 12 months. We analyzed projects coming from {link}, a curated list of the best projects related to the web platform."
+  table_of_contents: "目次"
+  explanation: "本サイトに掲載したチャートは、2016年の１２か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webブラットフォームに関連するベストプロジェクトをまとめています。"
 
 categories:
-  all: "(ja) Most Popular Projects in 2016"
-  framework: '(ja) Front-end Frameworks'
-  nodejsframework: '(ja) Node.js Frameworks'
-  reacttemplate: '(ja) React Boilerplates'
-  mobile: '(ja) Mobile'
-  compiler: '(ja) Compilers'
-  build: '(ja) Build Tools'
-  testframework: '(ja) Testing Frameworks'
-  ide: '(ja) IDE'
-  ssg: '(ja) Static Site Generators'
+  all: "2016年人気プロジェクトランキング"
+  framework: 'フロントエンドフレームワーク'
+  nodejsframework: 'Node.jsフレームワーク'
+  reacttemplate: 'Reactボイラープレート'
+  mobile: 'モバイル'
+  compiler: 'コンパイラ'
+  build: 'ビルドツール'
+  testframework: 'テスティングフレームワーク'
+  ide: '統合開発環境（IDE）'
+  ssg: '静的サイトジェネレータ'
