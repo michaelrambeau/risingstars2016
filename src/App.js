@@ -14,8 +14,10 @@ class App extends React.Component {
         <Helmet
           title={title}
           meta={[
-            { name: 'description', content: description }
+            { name: 'description', content: description },
+            { property: 'og:type', content: 'article' }
           ]}
+          htmlAttributes={{ lang: intl.locale }}
         />
         <Page {...this.props} />
       </div>

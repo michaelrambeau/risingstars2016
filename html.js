@@ -13,14 +13,13 @@ module.exports = React.createClass({
   },
   render () {
     const head = Helmet.rewind()
-
+    const isProduction = process.env.NODE_ENV === 'production'
     let css
-    if (process.env.NODE_ENV === 'production') {
+    if (isProduction) {
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
-
     return (
-      <html lang="en">
+      <html {...head.htmlAttributes.toComponent()}>
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -40,7 +39,7 @@ module.exports = React.createClass({
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
-          {true && <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
+          {!isProduction && <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
         </body>
       </html>
     )
