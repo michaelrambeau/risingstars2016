@@ -1,7 +1,7 @@
 # Meta data
 page:
   title: "2016 JavaScript Rising Stars"
-  description: "2016年版 JavaScript白書: フロントエンド、Node.jsフレームワーク、ツールチェーン、IDE、静的サイトジェネレータなど、2016年のJavaScriptの動向を完全網羅"
+  description: "2016年 JavaScript 白書: フロントエンド、Node.jsフレームワーク、ツールチェーン、IDE、静的サイトジェネレータなど、2016年のJavaScriptの動向を完全網羅"
 
 # Page content
 header:
@@ -9,7 +9,7 @@ header:
 introduction:
   table_of_contents: "目次"
   explanation: "本サイトに掲載したチャートは、2016年の12か月間にGithubでカウントされたスター数をプロジェクト別に比較したものです。分析対象のプロジェクトは {link} から収集したものです。 {link} では、Webテクノロジに関連するベストプロジェクトをまとめています。"
-conclusion: "(ja) Conclusion"
+conclusion: "おわりに"
 
 categories:
   all: "2016年人気プロジェクトランキング"
@@ -24,4 +24,4 @@ categories:
   ssg: '静的サイトジェネレータ'
 
 social:
-  text: "(ja) Check the JavaScript landscape in 2016"    
+  text: "「2016年 JavaScript 白書」をチェックする"    
