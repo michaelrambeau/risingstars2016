@@ -1,4 +1,4 @@
-JavaScriptが普及したおかげで、Webデベロッパーの知識（HTML,JavaScript,CSS）で、モバイル向けのネイティヴアプリケーションが開発できるようになりました。
+JavaScriptが普及したおかげで、Webデベロッパーの知識（HTML、JavaScript、CSS）で、モバイル向けのネイティヴアプリケーションが開発できるようになりました。
 
 #### {react-native}
 
