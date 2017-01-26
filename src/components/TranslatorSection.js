@@ -17,10 +17,12 @@ const TranslatorList = () => {
   const translators = config.translators
   return (
     <div>
-      <p>Translated in Japanese by:</p>
-      {translators.map(translator => (
-        <Translator translator={translator} key={translator.name} />
-      ))}
+      <p style={{ marginTop: 0 }}>Translated in Japanese by:</p>
+      <div className="translator-list">
+        {translators.map(translator => (
+          <Translator translator={translator} key={translator.name} />
+        ))}
+      </div>
     </div>
   )
 }

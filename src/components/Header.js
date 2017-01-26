@@ -10,15 +10,17 @@ const items = [
 const Header = ({ language }) => (
   <div id="header">
     <div className="container small-container">
-      <a id="logo" href="http://bestof.js.org">bestof.js.org</a>
-      <div className="language-menu" style={{ marginLeft: '2rem' }}>
-        {items.map(item => (
-          <LanguageLink
-            item={item}
-            key={item.code}
-            active={language === item.code}
-          />
-        ))}
+      <div className="header-layout">
+        <a id="logo" href="http://bestof.js.org">bestof.js.org</a>
+        <div className="language-menu">
+          {items.map(item => (
+            <LanguageLink
+              item={item}
+              key={item.code}
+              active={language === item.code}
+            />
+          ))}
+        </div>
       </div>
     </div>
   </div>

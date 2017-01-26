@@ -13,11 +13,10 @@ bio2="素朴なプログラマで言語マニア。札幌生まれの大阪在�
 name = "Yohei Ice"
 url = "https://github.com/meltedice"
 avatar="https://avatars3.githubusercontent.com/u/557001?v=3&s=75"
-bio1="Ruby / Rails / Emacs / Scheme / Android+Scala / Ubuntu / MacOSX"
-bio2="Like: Romancing SaGa"
+bio1="Web application developer (Rails, React, ...)"
 
 [[translators]]
 name = "Shigeto Yatani"
 url = "https://twitter.com/vanx2"
 avatar="https://avatars2.githubusercontent.com/u/572205?v=3&s=75"
-bio2="Node.js, 美味しいご飯, 酒、料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山"
+bio1="Node.js, 美味しいご飯, 酒、料理, バスケ, ヨガ, エレクトロニカ, DJ, 園芸, DIY, プチアウトドア, 六甲山"
