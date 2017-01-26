@@ -1,4 +1,4 @@
-JavaScript fatigue™（"JS疲れ"）がささやかれ、いくつかの悲劇（例えば、["leftpad gate"](http://developer.telerik.com/featured/left-pad-indicative-fragile-javascript-ecosystem/)）にも遭遇しましたが、{vuejs} と {react-native} が脚光を浴び、{yarn} や {create-react-app} といった新しいプロジェクトが立ち上がり、2016年はコミュ二ティにとって実りの多い年だったといえるでしょう。
+JavaScript fatigue™（"JavaScript疲れ"）がささやかれ、いくつかの悲劇（例えば、["leftpad gate"](http://developer.telerik.com/featured/left-pad-indicative-fragile-javascript-ecosystem/)）にも遭遇しましたが、{vuejs} と {react-native} が脚光を浴び、{yarn} や {create-react-app} といった新しいプロジェクトが立ち上がり、2016年はコミュ二ティにとって実りの多い年だったといえるでしょう。
 
 ここまで、2016年に Github で支持を集めたプロジェクトを定量的な視点でみてきました。とはいえ、この結果だけでデベロッパーが満足できるかどうか疑問です。もっと定性的なアプローチをお望みであれば、Sacha Greif の実施したサーヴェイ [State of JavaScript](http://stateofjs.com/) を是非チェックしてみてください。9,000 以上の回答結果にアクセスできます。
 
@@ -8,7 +8,7 @@ JavaScript fatigue™（"JS疲れ"）がささやかれ、いくつかの悲劇�
 
 2016年を振り返ってみて個人的に気に入ったもののうち、2017年も引き続き伸びそうなプロジェクトとアイデアを10選してみました。
 
-* {vuejs}: 勢いはしばらく止まらない気がします。
+* {vuejs}: しばらく勢いは止まらないでしょう。
 * {electron}
 * {create-react-app} (このページのビルドにも使ってます！)
 * {react-native}
@@ -21,4 +21,4 @@ JavaScript fatigue™（"JS疲れ"）がささやかれ、いくつかの悲劇�
 
 ---
 
-最後までお読みいただきありがとうございます。シェアは自由です。フィードバックがございましたらこちらからお願いします: [Github](https://github.com/michaelrambeau/risingstars2016)
+最後までお読みいただきありがとうございます。シェアは自由です。フィードバックはこちらからお願いします: [Github](https://github.com/michaelrambeau/risingstars2016)

@@ -4,7 +4,7 @@
 
 結果をみると、IDEではMicrosoftの {visual-studio-code} がリードしています。 
 
-{visual-studio-code} は {typescript} とNode.jsをうまくインテグレーションしています。*IntelliSense*（ハイライティングと自動補完の機能）が使えれば、開発効率はもっと上がると指摘するデヴェロッパも少なくないようです。
+{visual-studio-code} は {typescript} とNode.jsをうまくインテグレーションしています。*IntelliSense*（ハイライティングと自動補完の機能）が使えれば、開発効率はもっと上がると指摘するデベロッパーも少なくないようです。
 
 「オープンソース」と「MicroSoft」を同じセンテンスで使うことは、もはや矛盾でもなんでもありません！
 
