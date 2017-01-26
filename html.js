@@ -29,7 +29,6 @@ module.exports = React.createClass({
           />
           {head.title.toComponent()}
           {head.meta.toComponent()}
-          <meta content="/img/rising-stars.png" property="og:image" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#e65100" />
           <link rel="shortcut icon" href="/img/favicon.ico" />

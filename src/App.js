@@ -15,7 +15,8 @@ class App extends React.Component {
           title={title}
           meta={[
             { name: 'description', content: description },
-            { property: 'og:type', content: 'article' }
+            { property: 'og:type', content: 'article' },
+            { property: 'og:image', content: `/img/${intl.locale}/rising-stars.png` }
           ]}
           htmlAttributes={{ lang: intl.locale }}
         />

@@ -6,8 +6,13 @@
 }
 #logo {
 	font-family: 'Comfortaa', cursive;
-	font-size: 36px;
+	font-size: 24px;
 	color: #e65100;
+}
+@media (min-width: 450px) {
+  #logo {
+    font-size: 28px;
+  }
 }
 #logo:hover {
   text-decoration: none;

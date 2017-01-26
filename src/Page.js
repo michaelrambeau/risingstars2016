@@ -8,11 +8,11 @@ import Introduction from './components/Introduction'
 import Conclusion from './components/Conclusion'
 import graphFactory from './components/graphFactory'
 import categories from './categories'
+import ProjectIconWall from './components/ProjectIconWall' // Used to generate the icon
 
 class Page extends React.Component {
   render () {
     const { entities, url, projects, intl } = this.props
-    // console.info('Render Page', entities);
     const locale = intl.locale
     const factory = graphFactory({ projects, entities, locale })
     const Graph = (props) => factory.createGraph(props)
@@ -31,6 +31,7 @@ class Page extends React.Component {
           url={url}
           intl={intl}
         />
+        {false && <ProjectIconWall projects={projects.all} />}
         {categories.map((item, i) => (
           <Graph
             key={item.tag}

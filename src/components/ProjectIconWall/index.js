@@ -4,16 +4,21 @@ import './style.css'
 
 const excluded = [
   'axios', 'typescript', 'animatecss', 'react-boilerplate',
-  'angularjs', 'airbnb-style-guide', 'awesome', 'material-ui'
+  'angularjs', 'airbnb-style-guide', 'awesome', 'material-ui',
+  'create-react-app', 'standard', 'skeleton', 'webtorrent', 'handlebarsjs'
 ]
 
-const Wall = ({ projects }) => {
+const Wall = ({ projects, lang = 'ja' }) => {
+  const titles = {
+    'en': '2016 JavaScript Rising Stars',
+    'ja': <span>JavaScript<br /> ベスト・オブ・ザ・イヤー2016</span>
+  }
   const niceProjects = projects
     .filter(project => !excluded.includes(project.slug))
     .slice(0, 25)
   return (
     <div id="wall">
-      <div className="text">2016 JavaScript Rising Stars</div>
+      <div className="text">{titles[lang]}</div>
       <div className="icon-wall-grid">
         {niceProjects.map(project => (
           <div key={project.slug}>
