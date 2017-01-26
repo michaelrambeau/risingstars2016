@@ -19,7 +19,6 @@ Facebook は手軽に React のプロジェクトを開始できる {create-reac
 
 {react-boilerplate} には、{redux} や他のオフライン機能のモジュール、Web Worker など、必要になる機能はすべて含まれてます。
 
-It let developers create what is called *Progressive Web Applications* (or *PWA*): web application that run offline, using a technology called Service Worker, read [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) from Nicolás Bevacqua.
 これを使えば *プログレッシブウェブアプリ* (*PWA*) と呼ばれるアプリケーションを作成できます。
 プログレッシブウェブアプリは Service Worker という技術を使用して、オフラインでも動作するウェブアプリケーションです。
 詳しくは Nicolás Bevacqua. の [this article](https://ponyfoo.com/articles/progressive-app-serviceworker) を参照してくさい。
