@@ -3,6 +3,7 @@ import { FormattedMessage } from 'react-intl'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import TranslatorSection from './components/TranslatorSection'
 import Introduction from './components/Introduction'
 import Conclusion from './components/Conclusion'
 import graphFactory from './components/graphFactory'
@@ -45,6 +46,7 @@ class Page extends React.Component {
           url={url}
           intl={intl}
         />
+        <TranslatorSection language={intl.locale} />
         <Footer language={intl.locale} />
       </div>
     )

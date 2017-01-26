@@ -1,0 +1,24 @@
+.TranslatorSection {
+  padding: 1rem 0;
+  background-color: #e75f16;
+  color: rgba(255, 255, 255, 0.6);
+}
+.TranslatorSection a {
+  color: #fbf3ef;
+}
+.translator-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.translator-list-item:hover .translator-name {
+  text-decoration: underline;
+}
+.translator-item-body {
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.translator-name {
+  color: #fbf3ef;
+  font-size: 1.25rem;
+}

@@ -9,6 +9,7 @@ import '../src/css/Picture.css'
 import '../src/css/TagCard.css'
 import '../src/css/Header.css'
 import '../src/css/Footer.css'
+import '../src/css/TranslatorSection.css'
 
 // export default ({ children }) => {
 //   console.log('template', children);
