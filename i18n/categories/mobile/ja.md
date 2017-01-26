@@ -1,4 +1,4 @@
-JavaScriptがここまで普及した結果、Webデベロッパーがすでに習得している知識（HTML,JavaScript,CSS）でモバイル向けのネイティヴアプリケーションを開発できるようになりました。
+JavaScriptが普及した結果、Webデベロッパーがすでに習得している知識（HTML,JavaScript,CSS）で、モバイル向けのネイティヴアプリケーションを開発できるようになりました。
 
 #### {react-native}
 
@@ -16,6 +16,6 @@ React NativeならWebアプリケーションと同じコードベースから�
 
 {nativescript} は {react-native} と同じゴール（Webのテクノロジでモバイルアプリケーションを実装すること）を目指しています。実装のアプローチとしては、NativeScript CoreとNativeScript + Angular2の２種類があります。
 
-#### 今年の注目は...
+#### さて、今年の注目は？
 
 2017年、この分野の注目プロジェクトとして、{vuejs} の上に実装された*「モバイル向けクロスプラットフォームUIフレームワーク」*[Weex](https://weex-project.io/) を挙げておきます。
