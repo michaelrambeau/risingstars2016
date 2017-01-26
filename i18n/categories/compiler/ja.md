@@ -1,4 +1,4 @@
-さて、それでは AltJS 群などの言語から JavaScript のコードを生成するコンパイラ（トランスパイラ）についてです。
+AltJS 群などの言語から JavaScript のコードを生成するコンパイラ（トランスパイラ）についてです。
 それらのコンパイラはブラウザや node.js で実行できる "standard JavaScript" を生成することができるため、
 ブラウザがサポートしているかどうかを気にせず、ES6などの最新の JavaScript でコードを書くことができます。
 
@@ -31,4 +31,4 @@ Javascript で型を利用するのにはメリットとデメリットがあり
 
 #### {coffeescript}
 
-ここ数年、 {coffeescript} and its lean syntax, inspired by Python and Ruby syntax, 最も人気なコンパイラでしたが2016年では下火となり大半の開発者は CoffeeScript から Babel を使って ES6 を書くスタイルへと移行していきました。
+Python と Ruby のシンタックスにインスパイアされた {coffeescript} はここ数年最も人気なコンパイラでしたが、2016年では下火となり大半の開発者は CoffeeScript から Babel を使って ES6 を書くスタイルへと移行していきました。
