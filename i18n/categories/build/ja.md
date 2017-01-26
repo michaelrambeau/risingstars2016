@@ -1,26 +1,25 @@
-In 2016, it's difficult to imagine a web application without any kind of building process.
-You usually need a building process to compile templates and optimize assets in order to ship your web application in production.
+ビルディングプロセスのないWebアプリケーション開発など、2016年の時点で想像することはもはや困難です。みなさんも、アプリケーションをプロダクションにリリースするとき、テンプレートをコンパイルしたりアセットを最適化するビルディングプロセスを踏んでいるはずですよね。
 
 #### {webpack}
 
-{webpack} is the main tool used to build a single-page application, it plays well with the React eco-system. The newly released version 2 comes with some promising enhancements (check this [introduction](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.7wyiawc0o))
+{webpack} はシングルページアプリケーション（SPA）のビルドツールの代表格で、React との相性も抜群です。最新版である version 2 では注目すべき機能がいくつか追加されています。version 2 については[こちら](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.7wyiawc0o)がよくまとまっています。
 
 #### {gulp}
 
-{gulp} is a generic a task runner that can be used for any kind of automatic process involving the file system, so it's not a direct contender of Webpack or Browserify.
+{gulp} は、ファイルシステムだろうとなんだろうとプロセスを自動化するのに汎用的に利用できるタスクランナーです。ですので、Webpack や Browserify と直接競合するものではないでしょう。
 
-Like {grunt}, Gulp works by aggregation: you can ask it to minify and concatenate a list of assets but it does not deal with modular JavaScript by itself, as {webpack} or {browserify} do.
+{grunt} 同様、Gulp が実行するのはアグリゲーションです。つまり、アセットの集まりを小さくして、つなぎ合わせるところまでするのですが、{webpack} や {browserify} のようにJavaScriptのモジュール管理までは対応していません。
 
-Nevertheless it can play well with webpack even if developers tend to use npm scripts instead.
+とはいえ、npm-scriptsを使うくらいならGulpとwebpackを使うべきでしょう。
 
 #### {browserify}
 
-{browserify}, because of its simplicity is usually loved by node.js developers.
+{browserify} の人気はそのシンプルさにあり、それが Node.js デベロッパーに支持されています。
 
-Basically it takes several node.js packages as an input and generates one single "build" file for the browser as an output. But it seems that a more opinionated tool like {webpack} is a a better fit to web application workflows.
+基本的な使い方としては、複数のNode.jsパッケージを入力して、"build"というブラウザで実行可能なファイルを出力します。シンプルさが売りではありますが、Webアプリケーションの開発フローには {webpack} のような世界観を前面に打ち出すツールのほうがフィットする気がします。
 
-#### Looking forward...
+#### 今年の注目は・・・
 
-A module bundler to follow in 2017, that emphasizes on performance: {rollup}.
+2017年に注目すべきモジュール管理ツールとしては、パフォーマンスの高さをうたう {rollup} を挙げておきます。
 
-It uses ES6 modules with a feature called *Tree shaking* to create bundles that include only functions you use in your code, instead of shipping the full library.
+*Tree shaking*と呼ばれるES6モジュールの機能を使い、コードから実際には呼ばれていない関数を取り除いてモジュールバンドルを作ってくれるので、依存関係にあるライブラリがまるごとプロダクションにデプロイされるなんてことがなくなります。
