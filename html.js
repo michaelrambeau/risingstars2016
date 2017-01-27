@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import ga from './ga'
 
 import { prefixLink } from 'gatsby-helpers'
 
@@ -39,6 +40,7 @@ module.exports = React.createClass({
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           {!isProduction && <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
+           <script dangerouslySetInnerHTML={{__html: ga}} />
         </body>
       </html>
     )
