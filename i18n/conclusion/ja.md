@@ -10,9 +10,9 @@ JavaScript fatigue™（"JavaScript疲れ"）がささやかれ、いくつか�
 
 * {vuejs}: しばらく勢いは止まらないでしょう。
 * {electron}
-* {create-react-app} (このページのビルドにも使ってます！)
+* {create-react-app}
 * {react-native}
-* {gatsby}
+* {gatsby} (このページのビルドにも使ってます！)
 * {yarn}: 高速、高信頼性、セキュアなパッケージマネージャーです。npm に取って代わる可能性もあります。こちらの記事が参考になります: ["Yarn vs npm - The State of Node.js Package Managers"](https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/)
 * プログレッシブ Web アプリケーション
 * [Now](https://zeit.co/now) に代表されるような、デプロイが容易で Node.js ベースのマイクロサービスが構築できるホスティングサービス

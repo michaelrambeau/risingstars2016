@@ -17,7 +17,9 @@ const TranslatorList = () => {
   const translators = config.translators
   return (
     <div>
-      <p style={{ marginTop: 0 }}>Translated in Japanese by:</p>
+      <p style={{ marginTop: 0, textAlign: 'center', fontSize: '1.25rem' }}>
+        Translated in Japanese by:
+      </p>
       <div className="translator-list">
         {translators.map(translator => (
           <Translator translator={translator} key={translator.name} />

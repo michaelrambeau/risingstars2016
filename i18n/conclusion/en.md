@@ -11,9 +11,9 @@ Here are my 10 picks of the year, the projects and the ideas I liked in 2016 and
 
 * {vuejs}: the momentum will not stop
 * {electron}
-* {create-react-app} (used to build this page!)
+* {create-react-app}
 * {react-native}
-* {gatsby}
+* {gatsby} (used to build this page!)
 * {yarn}: a fast, reliable and secure dependency management that can replace npm, read about the state of node.js package managers [here](https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/)
 * The concept of "Progressive Web Applications"
 * Node.js micro-services made easy to deploy with a hosting solution like [Now](https://zeit.co/now)
