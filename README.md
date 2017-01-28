@@ -18,15 +18,13 @@ This is an application created using:
 * [Victory](http://formidable.com/open-source/victory/): a library to create SVG charts with React
 * [React Intl](https://github.com/yahoo/react-intl)
 
-I added a server-side rendering script to generate a static html page, without shipping JavaScript code to the final page.
-
 It's hosted on Github Pages using the [js.org](https://js.org/) domain.
 
-Files system:
+File system:
 
 * `src`: the application source code (React components)
-* `public`: default production build created by `npm run build`
-* `docs`: custom production build, created by the SSR script, the final assets served by Github Pages
+* `build`: default production build created by `npm run build` (not committed to Git)
+* `docs`: custom production build, created by `deploy` script, the final assets served by Github Pages
 
 ## Commands
 
@@ -42,8 +40,8 @@ Create the build (`/public` folder)
 npm run build
 ```
 
-Server-side rendering (generate the `/docs` folder by a script from my own)
+Deploy to Github pages (generate the `/docs` folder)
 
 ```
-npm run ssr
+npm run deploy
 ```
