@@ -1,10 +1,10 @@
 import React from 'react'
-import { config } from 'config' // eslint-disable-line
+import team from '../utils/teamMembers'
 
 const Section = ({ language }) => (
   <section className="TranslatorSection">
     <div className="container small-container">
-      {language === 'ja' ? <TranslatorList /> : (
+      {language === 'ja' ? <TeamMemberList /> : (
         <p style={{ textAlign: 'center' }}>
           This article is also available in <a href="/ja/">Japanese</a>.
         </p>
@@ -13,33 +13,59 @@ const Section = ({ language }) => (
   </section>
 )
 
-const TranslatorList = () => {
-  const translators = config.translators
+const TeamMemberList = () => {
+  const translators = team.filter(member => member.role === 'translation')
+  const author = team.find(member => member.role === 'author')
   return (
     <div>
-      <p style={{ marginTop: 0, textAlign: 'center', fontSize: '1.25rem' }}>
-        Translated in Japanese by:
-      </p>
-      <div className="translator-list">
-        {translators.map(translator => (
-          <Translator translator={translator} key={translator.name} />
-        ))}
+      <div style={{ textAlign: 'center', paddingBottom: '2rem' }}>
+        <img src="/img/ja/rising-stars.png" />
       </div>
+      <TranslatorBlock translators={translators} />
+      <AuthorBlock author={author} />
     </div>
   )
 }
 
-const Translator = ({ translator }) => (
-  <a className="translator-list-item" href={translator.url}>
-    <img src={translator.avatar} width="75" height="75" />
+const AuthorBlock = ({ author }) => (
+  <div style={{ marginTop: '2rem' }}>
+    <p className="member-list-header" style={{ marginTop: '1rem' }}>
+      <a href="/">Original version</a>
+    </p>
+    <div className="translator-list">
+      <TeamMember member={author} key={author.name} />
+    </div>
+  </div>
+)
+
+const TranslatorBlock = ({ translators }) => (
+  <div>
+    <p className="member-list-header">
+    Japanese translation
+    </p>
+    <div className="translator-list">
+      {translators.map(translator => (
+        <TeamMember member={translator} key={translator.name} />
+      ))}
+    </div>
+  </div>
+)
+
+const TeamMember = ({ member }) => (
+  <div className="translator-list-item">
+    <a href={member.url} >
+      <img src={member.avatar} width="75" height="75" />
+    </a>
     <div className="translator-item-body">
-      <div className="translator-name">{translator.name}</div>
+      <a href={member.url} className="translator-name">
+        {member.name}
+      </a>
       <div className="translator-bio">
-      {translator.bio1}
-      {translator.bio2 && <div>{translator.bio2}</div>}
+        {member.bio1}
+        {member.bio2 && <div>{member.bio2}</div>}
       </div>
     </div>
-  </a>
+  </div>
 )
 
 export default Section

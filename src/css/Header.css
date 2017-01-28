@@ -29,6 +29,8 @@
   display: flex;
   align-items: center;
   height: 100%;
+  border: 1px solid #f9e9e0;
+  border-width: 0 1px 0 1px;
 }
 .language-menu-item {
   padding: 0 1rem;
@@ -37,5 +39,6 @@
   align-items: center;
 }
 .language-menu-item.is-active {
-  background-color: #f9e9e0;
+  background-color: #cc4700;
+  color: white;
 }
