@@ -11,7 +11,6 @@
 .header-layout {
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
   height: 100%;
   padding-left: 1rem;
 }
@@ -28,7 +27,7 @@
 
 #logo {
   flex-grow: 1;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 24px;
 	color: #e65100;
 }
