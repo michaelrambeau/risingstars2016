@@ -101,3 +101,8 @@ h1 {
 .card-conclusion li {
   font-size: 1.25rem;
 }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}

@@ -24,7 +24,7 @@ const TeamMemberList = () => {
   return (
     <div>
       <div style={{ textAlign: 'center', paddingBottom: '2rem' }}>
-        <img src="/img/ja/rising-stars.png" />
+        <img src="/img/ja/rising-stars.png" className="img-responsive" alt="Rising Stars 2016" />
       </div>
       <TranslatorBlock translators={translators} />
       <AuthorBlock author={author} />
