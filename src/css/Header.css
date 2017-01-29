@@ -11,7 +11,7 @@
 .header-layout {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   height: 100%;
   padding-left: 1rem;
 }
@@ -25,12 +25,26 @@
     padding-left: 0;
   }
 }
+
+#logo {
+  flex-grow: 1;
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	color: #e65100;
+}
+@media (min-width: 450px) {
+  #logo {
+    font-size: 28px;
+  }
+}
+#logo:hover {
+  text-decoration: none;
+}
+
 .language-menu {
   display: flex;
   align-items: center;
   height: 100%;
-  border: 1px solid #f9e9e0;
-  border-width: 0 1px 0 1px;
 }
 .language-menu-item {
   padding: 0 1rem;

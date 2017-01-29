@@ -18,6 +18,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve-build",
+    "clean": "bash scripts/clean-html.sh",
     "deploy": "node scripts/deploy-ghpages/index.js"
   }
 }

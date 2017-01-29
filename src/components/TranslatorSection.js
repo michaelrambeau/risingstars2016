@@ -5,9 +5,14 @@ const Section = ({ language }) => (
   <section className="TranslatorSection">
     <div className="container small-container">
       {language === 'ja' ? <TeamMemberList /> : (
-        <p style={{ textAlign: 'center' }}>
-          This article is also available in <a href="/ja/">Japanese</a>.
-        </p>
+        <div style={{ textAlign: 'center' }}>
+          <p>
+            This article is also available in <a href="/ja/">Japanese</a>.
+          </p>
+          <p>
+            <a href="/ja/">日本語はこちら</a>です。
+          </p>
+        </div>
       )}
     </div>
   </section>
