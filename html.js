@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import ga from './ga'
+import ga from './src/htmlScripts/ga'
+import loadCSS from './src/htmlScripts/loadCSS'
 
 import { prefixLink } from 'gatsby-helpers' // eslint-disable-line import/no-unresolved
 
@@ -34,13 +35,12 @@ module.exports = React.createClass({
           <meta name="theme-color" content="#e65100" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           {css}
-          <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" />
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           {!isProduction && <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
           {isProduction && <script dangerouslySetInnerHTML={{__html: ga}} />}
+          <script dangerouslySetInnerHTML={{__html: loadCSS}} />
         </body>
       </html>
     )
