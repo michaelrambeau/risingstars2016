@@ -22,9 +22,9 @@
 Inferno と僅差の {preact} もすばらしい React 代替フレームワークです。
 Preact のエコシステムはかなり充実していて、例えばオフラインでも動作するひな型 *preact-boilerplate* 、ルーター、 *preact-compat* (React のモジュールを使用にするモジュール)などがあります。
 
-#### Angular 1/2
+#### AngularJS (version 1.x) & Angular 2
 
-Angular 1, 2 のリポジトリは 2つに分割されました。コンセプトはそのままながら、Angular 2 がフルスクラッチで書き直されたためです。
+AngularJS と Angular 2 のリポジトリは 2つに分割されました。コンセプトはそのままながら、Angular 2 がフルスクラッチで書き直されたためです。
 
 {angular-2} は TypeScript で書かれており、ES6 の恩恵も受けられるモダンなフレームワークです。
 
