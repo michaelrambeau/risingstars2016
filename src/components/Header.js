@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 
+import svg from './bestofjs.svg'
+
 const items = [
   { code: 'en', text: 'English' },
   { code: 'ja', text: '日本語' }
@@ -11,7 +13,9 @@ const Header = ({ language }) => (
   <div id="header">
     <div className="container small-container">
       <div className="header-layout">
-        <a id="logo" href="http://bestof.js.org">bestof.js.org</a>
+        <a id="logo" href="http://bestof.js.org">
+          <img src={svg} width="180" alt="bestof.js.org logo" />
+        </a>
         <div className="language-menu">
           {items.map(item => (
             <LanguageLink

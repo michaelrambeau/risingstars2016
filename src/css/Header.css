@@ -27,9 +27,9 @@
 
 #logo {
   flex-grow: 1;
-	font-family: 'Comfortaa', sans-serif;
-	font-size: 24px;
-	color: #e65100;
+}
+#logo img {
+  display: block;
 }
 @media (min-width: 450px) {
   #logo {
