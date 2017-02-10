@@ -23,4 +23,4 @@ The [version 2](https://medium.com/the-vue-point/vue-2-0-is-here-ef1f26acf4b8#.l
 
 There is already a quite mature eco-system around it, including a router ({vue-router}) and a state management library ({vuex}).
 
-It seems that {vuejs} took the best of {react} (the component approach) and {angularjs} (templates are html code enhanced by the framework features).
+It seems that {vuejs} took the best of {react} (the component approach) and {angular-1} (templates are html code enhanced by the framework features).

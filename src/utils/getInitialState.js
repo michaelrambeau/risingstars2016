@@ -82,6 +82,7 @@ function processProject (item) {
     branch: item.branch,
     color: item.color ? `#${item.color}` : getRandomColor()
   }
+  console.log(result.slug);
   return result
 }
 

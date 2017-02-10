@@ -3,7 +3,7 @@ It seemed that every month a new contender made the buzz, pushing the pace of in
 
 To be exact, 2 kinds of projects are mixed in the category:
 
-* Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angularjs}, {angular-2}, {ember} or {aurelia} are in this category.
+* Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angular-1}, {angular-2}, {ember} or {aurelia} are in this category.
 * Lighter solutions that focus on the UI layer, like {react}, {vuejs}, {inferno}...
 
 We have already mentioned {vuejs} (number 1 overall), let's see the other contenders.
@@ -23,9 +23,9 @@ It's eco-system is quite mature, for example there is a boilerplate with offline
 
 Angular project has been split into 2 repositories because Angular 2 is a full rewrite of Angular 1, even if some concepts remain the same.
 
-{angular-2} is written in TypeScript and takes advantage of ES6 to deliver a modern and thorough framework
+{angular-2} is written in TypeScript and takes advantage of ES6 to deliver a modern and thorough framework.
 
-{angularjs} project is the branch 1.x, it's still used in many projects and will remain popular for a while.
+{angular-1} (called "AngularJS" on Github) is still used in many projects and will remain popular for a while.
 
 It's worth to mention that {ember}, despite its large eco-system and its community is not in the top 10.
 
