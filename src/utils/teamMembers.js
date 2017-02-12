@@ -27,7 +27,7 @@ const team = [
     name: 'Michael Rambeau',
     url: 'http://michaelrambeau.com',
     avatar: 'https://avatars1.githubusercontent.com/u/5546996?v=3&s=75',
-    bio1: <span>Creator of <a href>bestof.js.org</a></span>,
+    bio1: <span>Creator of <a href="http://bestof.js.org">bestof.js.org</a></span>,
     role: 'author'
   }
 ]
