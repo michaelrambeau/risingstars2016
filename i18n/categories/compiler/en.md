@@ -13,7 +13,7 @@ There are pros and cons about using types in JavaScript, read these 2 article to
 
 #### {babel}
 
-{babel}, along with Webpack, almost became a standard to compile ES6 code and templates used by libraries like React (JSX) in standard JavaScript. Initially created to compile ES6, it became a much more generic tool that can accomplish any code transformation, thank to a system of plugins.
+{babel}, along with Webpack, almost became a standard to compile ES6 code and templates used by libraries like React (JSX) in standard JavaScript. Initially created to compile ES6, it became a much more generic tool that can accomplish any code transformation, thanks to a system of plugins.
 
 #### {flow}
 
@@ -24,4 +24,4 @@ It's used inside the code source of Facebook projects. Since Facebook became one
 
 #### {coffeescript}
 
-During years {coffeescript} and its lean syntax, inspired by Python and Ruby syntax, was the most popular compiler but it was less more trendy in 2016, a lot of developers moved from CoffeeScript to ES6 with Babel.
+During years {coffeescript} and its lean syntax, inspired by Python and Ruby syntax, was the most popular compiler but a lot of developers moved from CoffeeScript to ES6 with Babel in 2016.

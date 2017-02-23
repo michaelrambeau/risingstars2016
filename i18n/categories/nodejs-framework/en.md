@@ -32,11 +32,11 @@ The Admin UI is automatically generated from the models, has all CRUD actions an
 
 #### {sails}
 
-{sails} is a full MVC framework, very inspired by Ruby on Rails (hence the name **S**ails!). It has been around for a long time. It can play with any kind of database, SQL or no-SQL.
+{sails} is a full MVC framework, very inspired by Ruby on Rails (hence the name **S**ails!). It has been around for a long time. It can play with any kind of database, SQL or non-SQL.
 
 #### {loopback}
 
-{loopback} is an other mature framework with a lot of features built-in, including authentication with token and connectors to any kind of database.
+{loopback} is another mature framework with a lot of built-in features, including authentication with token and connectors to any kind of database.
 
-The killer feature is the **API explorer** feature that let developers check all API end-points in an intuitive way, with the ability to check any user's token.
+The killer feature is the **API explorer** that lets developers check all API end-points in an intuitive way, with the ability to check any user's token.
 It's definitively a good choice if you have to build an API.

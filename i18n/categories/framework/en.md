@@ -3,7 +3,7 @@ It seemed that every month a new contender made the buzz, pushing the pace of in
 
 To be exact, 2 kinds of projects are mixed in the category:
 
-* Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angular-1}, {angular-2}, {ember} or {aurelia} are in this category.
+* Full frameworks that include all features to create a modern web application (routing, data fetching, state management). {angular-1}, {angular-2}, {ember} or {aurelia} fall in this category.
 * Lighter solutions that focus on the UI layer, like {react}, {vuejs}, {inferno}...
 
 We have already mentioned {vuejs} (number 1 overall), let's see the other contenders.
@@ -17,7 +17,7 @@ We have already mentioned {vuejs} (number 1 overall), let's see the other conten
 {inferno} was the most popular project in this category, it claims to be the fastest alternative to React.
 
 Following closely Inferno in our rankings, {preact} is a nice alternative to React too.
-It's eco-system is quite mature, for example there is a boilerplate with offline capabilities, a router, a *compat* module so that you can use any existing React library inside your Preact project.
+Its eco-system is quite mature, for example there is a boilerplate with offline capabilities, a router, a *compat* module so that you can use any existing React library inside your Preact project.
 
 #### Angular 1 and 2
 

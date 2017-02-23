@@ -1,9 +1,9 @@
-Static site generators (or "SSG") are tools that generate a bunch of .html, .css and JavaScript files that you can deploy on any simple web server (Apache or NGNX) without the fuss or a setting up a database or any web framework.
+Static site generators (or "SSG") are tools that generate a bunch of .html, .css and JavaScript files that you can deploy on any simple web server (Apache or NGNX) without the fuss of setting up a database.
 As {gatsby} web site says:
 
 > Build sites like it's 1995
 
-Static web site are fast, robust and easy to maintain.
+Static web sites are fast, robust and easy to maintain.
 
 SSG are very popular because there are a lot of very good solutions to host static web site for free:
 

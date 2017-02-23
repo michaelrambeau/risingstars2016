@@ -4,7 +4,7 @@ JavaScript is so ubiquitous that you can build native mobile applications using 
 
 With React Native, from the same code base, you can build iOS and Android real **native** mobile applications, using concepts familiar to React developers. To know more about building applications for both iOS and Android, read [this tutorial](http://makeitopen.com/).
 
-Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient than a native solution.
+Other solutions, based on Cordova, used to rely on Webview to render the screens and were not as efficient as a native solution.
 "Write Once Run Everywhere"... This is a developer's dream came true!
 
 #### {ionic}

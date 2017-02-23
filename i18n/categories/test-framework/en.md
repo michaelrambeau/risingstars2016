@@ -1,4 +1,4 @@
-The 2 most famous testing framework are {jasmine} and {mocha} but 2 more recent projects got more traction in 2016: {ava} and {jest}.
+The 2 most famous testing frameworks are {jasmine} and {mocha} but 2 more recent projects got more traction in 2016: {ava} and {jest}.
 
 #### {ava}
 
@@ -6,6 +6,6 @@ The 2 most famous testing framework are {jasmine} and {mocha} but 2 more recent 
 
 #### {jest}
 
-{jest}, an other Facebook project, got a lot of traction over the last weeks. It's well-known in the React community, more and more people are moving to Jest (read [this story](https://medium.com/@kentcdodds/migrating-to-jest-881f75366e7e#.z9x53j1ea) for example) and it may become the most popular testing framework in 2017.
+{jest}, another Facebook project, got a lot of traction over the last weeks. It's well-known in the React community, more and more people are moving to Jest (read [this story](https://medium.com/@kentcdodds/migrating-to-jest-881f75366e7e#.z9x53j1ea) for example) and it may become the most popular testing framework in 2017.
 
-Jest has good mocking abilities built-in, whereas other testing frameworks usually rely on libraries like {sinonjs}.
+Jest has good built-in mocking abilities, whereas other testing frameworks usually rely on libraries like {sinonjs}.

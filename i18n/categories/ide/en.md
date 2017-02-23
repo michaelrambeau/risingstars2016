@@ -5,7 +5,7 @@ About IDE (*Integrated Development Environment*), it's worth to mention that 2 o
 In our results, Microsoft leads the way with {visual-studio-code}.
 
 It provides a nice integration with {typescript} and node.js.
-Some developers mention improvement about development speed thank to the *IntelliSense* feature (a mix of highlighting and autocomplete).
+Some developers mention improvement about development speed thanks to the *IntelliSense* feature (a mix of highlighting and autocomplete).
 
 Saying "open source" and "Microsoft" in the same sentence is no more an oxymoron!
 
