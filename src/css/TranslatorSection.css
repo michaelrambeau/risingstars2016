@@ -44,7 +44,7 @@
 }
 .member-list-header {
   color: rgba(255, 255, 255, 0.95);
-  /*margin-top: 0px;*/
+  margin-top: 0;
   text-align: left;
   font-size: 1.4rem;
   padding-bottom: .5rem;
