@@ -27,10 +27,10 @@ const team = [
     language: 'ja'
   },
   {
-    name: 'wangshijun',
-    url: 'http://www.feweekly.com/',
+    name: '王仕军',
+    url: 'https://zhuanlan.zhihu.com/feweekly',
     avatar: 'https://avatars1.githubusercontent.com/u/719985?v=3&s=75',
-    bio1: 'wangshijun bio',
+    bio1: <span><a href="https://zhuanlan.zhihu.com/feweekly">前端周刊</a>创办者</span>,
     role: 'translation',
     language: 'zh'
   },
