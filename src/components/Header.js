@@ -6,6 +6,7 @@ import svg from './bestofjs.svg'
 
 const items = [
   { code: 'en', text: 'English' },
+  { code: 'zh', text: '中文' },
   { code: 'ja', text: '日本語' }
 ]
 
