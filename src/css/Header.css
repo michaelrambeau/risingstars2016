@@ -31,9 +31,10 @@
 #logo img {
   display: block;
 }
-@media (min-width: 450px) {
-  #logo {
-    font-size: 28px;
+/* Make the logo smaller on small screens */
+@media (max-width: 450px) {
+  #logo img {
+    width: 120px;
   }
 }
 #logo:hover {
@@ -54,4 +55,10 @@
 .language-menu-item.is-active {
   background-color: #cc4700;
   color: white;
+}
+/* Hide the current language on very small screens */
+@media (max-width: 360px) {
+  .language-menu-item.is-active {
+    display: none;
+  }
 }

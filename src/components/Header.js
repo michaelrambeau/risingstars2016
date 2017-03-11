@@ -15,7 +15,7 @@ const Header = ({ language }) => (
     <div className="container small-container">
       <div className="header-layout">
         <a id="logo" href="http://bestof.js.org">
-          <img src={svg} width="180" alt="bestof.js.org logo" />
+          <img src={svg} width="160" alt="bestof.js.org logo" />
         </a>
         <div className="language-menu">
           {items.map(item => (
