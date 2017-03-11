@@ -7,10 +7,11 @@ const Section = ({ language }) => (
       {language === 'ja' ? <TeamMemberList /> : (
         <div style={{ textAlign: 'center' }}>
           <p>
-            This article is also available in <a href="/ja/">Japanese</a>.
+            This article is also available in <a href="/ja/">Japanese</a>, <a href="/cn/">中文</a>.
           </p>
           <p>
             <a href="/ja/">日本語はこちら</a>です。
+            <a href="/cn/">简体中文版</a>。
           </p>
         </div>
       )}

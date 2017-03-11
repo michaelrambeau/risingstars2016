@@ -1,6 +1,7 @@
 import React from 'react'
 import { IntlProvider, addLocaleData } from 'react-intl'
 import __intlEN from 'react-intl/locale-data/en'
+import __intlZH from 'react-intl/locale-data/zh'
 import __intlJA from 'react-intl/locale-data/ja'
 import App from '../App'
 import getMessages from './getMessages'
@@ -12,6 +13,7 @@ import packageJson from '../../package.json'
 const url = packageJson.homepage
 
 addLocaleData(__intlEN)
+addLocaleData(__intlZH)
 addLocaleData(__intlJA)
 
 export default function (locale) {
