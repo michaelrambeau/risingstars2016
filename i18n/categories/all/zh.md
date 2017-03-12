@@ -17,6 +17,6 @@
 
 {vuejs} 2016 年新增超过 25000 个 star，意味着平均每天新增 72 个 star，超过了所有以往同类项目的流行速度，比如 React 和 Angular。 采用 Virtual DOM 来增强性能的 [Vue.JS v2](https://medium.com/the-vue-point/vue-2-0-is-here-ef1f26acf4b8#.lekly4sa8) 于 2016 年 10 月发布。
 
-{vuejs} 已经被不少大公司用在了生产环境中，比如中国最大的电子商务网站里巴巴吧，所以你可以将 {vuejs} 作为一个安全的选择。
+{vuejs} 已经被不少大公司用在了生产环境中，比如中国最大的电子商务网站里巴巴，所以你可以将 {vuejs} 作为一个安全的选择。
 
 围绕着 {vuejs} 的社区生态也日趋成熟，包括路由库（{vue-router}）和状态管理库（{vuex}）。 {vuejs} 看起来兼具了 {react} 和 {angular-1} 两者的优点，其中 {react} 的基本思想是组件式开发，而 {angular-1} 是模板增强。
