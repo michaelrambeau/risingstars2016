@@ -1,14 +1,14 @@
-2016 年，如果一个 WEB 应用没有构建过程是难以想象的事情，在构建过程中通常你可以编译模板、优化静态资源，以为生产环境做好准备。
+2016 年“构建过程”似乎成了 WEB 项目的标配，如果一个 WEB 应用没有构建过程是难以想象的事情，在构建过程中通常你需要做编译模板、静态资源合并压缩之类的事情，以为生产环境做好准备。
 
 #### {webpack}
 
-{webpack} 是构建单页应用（SPA）的主要工具，他和 React 生态结合的非常好，最新发布的 Webpack 2 带来了不少非常有前景的改进，具体可以阅读[这里](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.7wyiawc0o)。
+{webpack} 是构建单页应用（SPA）的主要工具，它和 React 生态结合的非常好，最新发布的 Webpack 2 带来了不少非常有前景的改进，具体可以阅读[这里](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.7wyiawc0o)。
 
 #### {gulp}
 
-{gulp} 是一个通用任务运行工具，可以在任何和文件系统打交道的自动化流程中使用，可以认为他并不是 {webpack} 和 {browserify} 的直接竞争者。
+{gulp} 是一个通用的任务运行工具，可以在任何和文件系统打交道的自动化流程中使用，可以认为它并不是 {webpack} 和 {browserify} 的直接竞争者。
 
-和 {grunt} 类似，Gulp 的主要角色是任务管理，你可以让他压缩合并代码，但是他不会帮你处理 JS 模块化问题，而 {webpack} 和 {browserify} 是可以的。
+和 {grunt} 类似，Gulp 的主要角色是任务管理，你可以让它压缩合并代码，但是它不会帮你处理 JS 模块化问题，而 {webpack} 和 {browserify} 是可以的。
 
 当然了，Gulp 可以和 Webpack 结合起来使用，即使开发者倾向于使用 npm script 也是可以的，实际上很多开发者就是这么做的。
 

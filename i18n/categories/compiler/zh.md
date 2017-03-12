@@ -10,14 +10,14 @@
 
 #### {babel}
 
-{babel} + webpack 已经成了 ES6 代码转换、React 模板编译的标准工具组合，{babel} 最初是用来编译 ES6 的，但得益于他的插件系统，如今已经俨然演化成一个用途广泛，几乎能实现各种代码转换的工具。
+{babel} + webpack 已经成了 ES6 代码转换、React 模板编译的标准工具组合，{babel} 最初是用来编译 ES6 的，但得益于他的插件系统，如今俨然已经演化成一个用途广泛，几乎能实现各种代码转换的工具。
 
 #### {flow}
 
-{flow} 并不是一个编译工具，他只是一个基于 JS 代码标记的静态类型检查工具，简单来说，在使用 Flow 需要在代码中添加各种注释来注明需要的数据类型，关于 Flow 的使用，可以阅读[这篇文章](http://javascriptplayground.com/blog/2017/01/npm-flowjs-javascript/)。
+{flow} 并不是一个编译工具，它只是一个基于 JS 代码标记的静态类型检查工具，也就是说，使用 Flow 时需要在代码中添加各种注释来注明需要的数据类型，关于 Flow 的使用，可以阅读[这篇文章](http://javascriptplayground.com/blog/2017/01/npm-flowjs-javascript/)。
 
-Flow 在很多 Facebook 项目的源代码中都有使用，因为 Facebook 成为开源社区的重要玩家，为社区开源了 {react}、{react-native}、{flux}、{immutable}、{jest} 等众多的项目，相信你明白这意味着什么。
+Flow 在很多 Facebook 项目的源代码中都有使用，而 Facebook 已经成为开源社区的重要玩家，开源了 {react}、{react-native}、{flux}、{immutable}、{jest} 等众多的项目，相信你明白这意味着什么。
 
 #### {coffeescript}
 
-{coffeescript} 简洁的语法大量借鉴了 Python 和 Ruby 的语言特性，过去几年曾经是最受欢迎的编译器，但是 2016 年很多开发者从 CoffeeScript 转向了 ES6 + {babel} 组合。
+{coffeescript} 的简洁语法大量借鉴了 Python 和 Ruby 的语言特性，过去几年曾经是最受欢迎的编译器，但 2016 年很多开发者从 CoffeeScript 转向了 ES6 + {babel} 组合。
